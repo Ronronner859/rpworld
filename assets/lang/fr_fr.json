@@ -1,12 +1,12 @@
 {
     "rp-world": {
-        "title": "Fabrication à la demande vs. fabrication traditionnelle",
-        "description": "Fabrication à la demande vs. fabrication traditionnelle",
-        "ogDescription": "Fabrication à la demande vs. fabrication traditionnelle",
-        "ogTitle": "Fabrication à la demande vs. fabrication traditionnelle"
+        "title": "Fabrication à faible volume et haute diversité | Prototypage automobile - RPWORLD",
+        "description": "RP World est un fournisseur de premier plan de services de fabrication à faible volume et haute diversité ainsi que de prototypage automobile. Nous offrons une large gamme de services pour répondre à vos besoins de fabrication, du développement de prototypes à la production.",
+        "ogDescription": "RP World est un fournisseur de premier plan de services de fabrication à faible volume et haute diversité ainsi que de prototypage automobile. Nous offrons une large gamme de services pour répondre à vos besoins de fabrication, du développement de prototypes à la production.",
+        "ogTitle": "Fabrication à faible volume et haute diversité | Prototypage automobile - RPWORLD"
     },
     "rp-header": {
-        "title": "OBTENIR UN PRIX",
+        "title": "OBTENIR UN DEVIS",
         "menu": [
             {
                 "name": "ACCUEIL",
@@ -17,7 +17,7 @@
                 "path": "/services"
             },
             {
-                "name": "MATERIAUX",
+                "name": "MATÉRIAUX",
                 "path": "/materials"
             },
             {
@@ -25,7 +25,7 @@
                 "path": "/resources"
             },
             {
-                "name": "NEWS",
+                "name": "ACTUALITÉS",
                 "path": "/news"
             },
             {
@@ -34,14 +34,118 @@
             }
         ]
     },
+    "rp-footer": {
+        "tags": "Tags :",
+        "on-demand-manufacturing": "Fabrication à la demande",
+        "precision-manufacturing": "Fabrication de précision",
+        "injection-molding": "Moulage par injection",
+        "cnc-machining": "Usinage CNC",
+        "esg-practices": "Pratiques ESG"
+    },
     "rp-center-text": {
-        "grocery_shopping_text": "From grocery shopping to hailing taxis, businesses across industries—healthcare, education, banking, and e-commerce—are shifting toward flexible and tailored solutions that meet the unique needs of customers. The manufacturing industry is no exception. On-demand manufacturing is a transformative approach that caters to the modern manufacturing demand for speed, flexibility, and precision. By enabling faster production cycles and unparalleled customization, on-demand manufacturing has become the go-to solution for turning innovative ideas into tangible results.",
-        "subtitle": "Many companies across industries are using on-demand manufacturing to realize their design visions:",
-        "medical_devices": "Medical Devices",
-        "medical_devices_text": "Une entreprise européenne en pleine croissance spécialisée dans les dispositifs ophtalmiques a utilisé le moulage en uréthane pour développer un outil de diagnostic de pointe, réduisant le temps de développement de 50 % et les coûts de 30 %.",
-        "scientific_instruments": "Scientific Instruments",
-        "scientific_instruments_text": "A leading biotech research company used on-de­mand manufacturing to develop an innovative spectrometer, accelerating its development cycle by 40%.",
-        "automotive": "Automotive",
-        "title_fabrication": "Fabrication à la demande vs. fabrication traditionnelle"
+        "grocery_shopping_text": "De l'achat d'épicerie à la commande de taxis, les entreprises de tous secteurs - santé, éducation, banque, et commerce électronique - se tournent vers des solutions flexibles et sur mesure qui répondent aux besoins uniques des clients. L'industrie manufacturière ne fait pas exception. La fabrication à la demande est une approche révolutionnaire qui répond à la demande moderne de fabrication pour la rapidité, la flexibilité et la précision. En permettant des cycles de production plus rapides et une personnalisation inégalée, la fabrication à la demande est devenue la solution idéale pour transformer des idées innovantes en résultats tangibles.",
+        "subtitle": "De nombreuses entreprises de différents secteurs utilisent la fabrication à la demande pour réaliser leurs visions de conception :",
+        "medical_devices": "Dispositifs médicaux",
+        "medical_devices_text": "Une entreprise européenne en forte croissance dans le domaine des dispositifs ophtalmiques a utilisé le moulage par uréthane pour développer un outil de diagnostic de pointe, réduisant ainsi le temps de développement de 50 % et réduisant les coûts de 30 %. ",
+        "scientific_instruments": "Instruments scientifiques",
+        "scientific_instruments_text": "Une entreprise de biotechnologie de premier plan a utilisé la fabrication à la demande pour développer un spectromètre innovant, accélérant son cycle de développement de 40 %. ",
+        "automotive": "Automobile",
+        "automotive_text": "Les constructeurs automobiles intègrent la production à faible volume et le prototypage rapide pour rationaliser les itérations de conception, réduisant le temps de la conception aux tests de plus de 60 %. ",
+        "title_fabrication": "Fabrication à la demande vs. fabrication traditionnelle",
+        "title_fabrication_text": "Saviez-vous que la fabrication traditionnelle peut coûter des millions aux entreprises chaque année en raison des inefficacités ? Les investissements initiaux élevés, les délais de production longs et les processus rigides peuvent étouffer l'innovation et ralentir les progrès. La fabrication à la demande change la donne en éliminant les frais généraux inutiles, permettant aux entreprises de privilégier la créativité et la réactivité face au marché. Que vous soyez un leader établi ou une startup dynamique, la fabrication à la demande offre des cycles de production plus rapides, une plus grande personnalisation et des économies substantielles. Voici un tableau comparatif entre la fabrication traditionnelle et la fabrication à la demande :",
+        "on_demand_manufacturing": "Pourquoi nous aimons la fabrication à la demande",
+        "on_demand_manufacturing_text": "La fabrication à la demande est une révolution pour les entreprises, combinant rapidité, flexibilité et rentabilité de manière que les méthodes traditionnelles ne peuvent pas. Voici pourquoi cela compte :",
+        "product_development_journey": "En ce qui concerne le parcours de développement du produit, les différences entre la fabrication traditionnelle et la fabrication à la demande sont clairement mises en évidence dans le tableau ci-dessous, montrant les avantages distincts et les défis de chaque approche.",
+        "on_demand_vs_traditional": "Fabrication à la demande vs. fabrication traditionnelle",
+        "on_demand_vs_traditional_text": "Saviez-vous que la fabrication traditionnelle peut coûter des millions aux entreprises chaque année en raison des inefficacités ? Les investissements initiaux élevés, les délais de production longs et les processus rigides peuvent étouffer l'innovation et ralentir les progrès. La fabrication à la demande change la donne en éliminant les frais généraux inutiles, permettant aux entreprises de privilégier la créativité et la réactivité face au marché. Que vous soyez un leader établi ou une startup dynamique, la fabrication à la demande offre des cycles de production plus rapides, une plus grande personnalisation et des économies substantielles. Voici un tableau comparatif entre la fabrication traditionnelle et la fabrication à la demande :",
+        "on_demand_manufacturing_text_first_title": "1. Flexibilité et personnalisation",
+        "on_demand_manufacturing_text_first_text": "La fabrication à la demande permet aux entreprises de produire exactement ce dont elles ont besoin, précisément quand elles en ont besoin. Cela est particulièrement bénéfique pour :",
+        "on_demand_manufacturing_text_first_list": [
+            "Prototypage et tests de produits",
+            "Production à faible volume",
+            "Pièces hautement personnalisées ou spécialisées"
+        ],
+        "on_demand_manufacturing_text_first_text_2": "Par exemple, dans le secteur médical—où la précision et la personnalisation sont cruciales—la fabrication à la demande permet la production rapide de composants sur mesure pour des dispositifs médicaux avancés.",
+        "on_demand_manufacturing_text_second_title": "2. Délais de production plus rapides",
+        "on_demand_manufacturing_text_second_text": "Le temps ne fait pas de pause, surtout dans les secteurs où l'innovation est synonyme de concurrence. Les flux de travail rationalisés et les technologies avancées de la fabrication à la demande réduisent les délais de production, permettant aux entreprises de passer de la conception à la livraison en un temps record.",
+        "on_demand_manufacturing_text_second_text_2": "Ce délai de production rapide peut être extrêmement bénéfique pour des secteurs comme l'automobile et l'électronique grand public, où rester en avance sur les tendances peut faire ou défaire le succès d'un produit. La capacité à itérer rapidement et affiner les conceptions garantit que les entreprises restent à l'avant-garde de leurs marchés.",
+        "on_demand_manufacturing_text_third_title": "3. Rentabilité et optimisation des ressources",
+        "on_demand_manufacturing_text_third_text": "La fabrication traditionnelle repose sur la production en grande quantité, entraînant des coûts plus élevés, des excédents d'inventaire et des inefficacités logistiques. La fabrication à la demande élimine ces problèmes en :",
+        "on_demand_manufacturing_text_third_list": [
+            "Réduisant les coûts de stockage et d'inventaire",
+            "Permettant aux petites entreprises d'accéder à une fabrication de haute qualité sans investissements massifs"
+        ],
+        "on_demand_manufacturing_text_fourth_title": "4. L'innovation au cœur de tout",
+        "on_demand_manufacturing_text_fourth_text": "Avec des barrières de production plus faibles, les startups, inventeurs et entreprises établies peuvent expérimenter de nouvelles idées et itérer rapidement. Ces dernières années ont montré comment la fabrication à la demande a favorisé des avancées révolutionnaires, telles que :",
+        "on_demand_manufacturing_text_fourth_list": [
+            "Instruments scientifiques de nouvelle génération – Développement agile d'équipements de laboratoire de pointe",
+            "Technologie de maison intelligente – Accélération du développement de nouveaux appareils pour la vie moderne"
+        ],
+        "on_demand_manufacturing_text_fifth_title": "RPWORLD est votre partenaire fiable pour la fabrication à la demande",
+        "on_demand_manufacturing_text_fifth_text": "Chez RPWORLD, nous sommes passionnés par la livraison de solutions de fabrication à la demande alliant rapidité, flexibilité et précision. Que vous ayez besoin de pièces à faible volume ou de productions complètes, notre expertise garantit des résultats de haute qualité avec des délais d'exécution rapides.",
+        "on_demand_manufacturing_text_sixth_title": "RPWORLD est votre partenaire fiable pour la fabrication à la demande",
+        "on_demand_manufacturing_text_sixth_text": "Chez RPWORLD, nous sommes passionnés par la livraison de solutions de fabrication à la demande alliant rapidité, flexibilité et précision. Que vous ayez besoin de pièces à faible volume ou de productions complètes, notre expertise garantit des résultats de haute qualité avec des délais d'exécution rapides.",
+        "on_demand_manufacturing_text_seventh_title": "Pourquoi choisir RPWORLD pour la fabrication à la demande ?",
+        "on_demand_manufacturing_text_seventh_text": "Nous ne nous contentons pas de produire—nous innovons aux côtés de nos clients pour façonner l'avenir de leurs produits. Faites le premier pas vers la fabrication du futur avec RPWORLD.",
+        "on_demand_manufacturing_text_seventh_list": [
+            "20+ years of industry experience",
+            "Cutting-edge CNC machining, injection molding, sheet metal fabrication, full suite of finishing options",
+            "Trusted by leaders in medical, automotive, and technology industries",
+            "Seamless production processes to bring your ideas to life"
+        ],
+        "on_demand_manufacturing_text_eighth_text": "Ready to revolutionize your manufacturing approach? Let's build something amazing together. Contact us today to discuss your next project!",
+        "feature": "Feature",
+        "traditional_manufacturing": "Traditional Manufacturing",
+        "on_demand_manufacturing_table": "On-Demand Manufacturing",
+        "weeks": "weeks",
+        "rapid_prototyping": "Rapid Prototyping",
+        "rapid_tooling": "Rapid Tooling",
+        "production_tooling": "Production Tooling",
+        "time_to_market": "Time to Market",
+        "upfront_costs": "Upfront Costs",
+        "low_volume_production": "Low Volume Production",
+        "highly_customized_or_specialty_parts": "Highly Customized or Specialty Parts",
+        "comparing_development_timelines": "Comparing Development Timelines:",
+        "on_demand_manufacturing_vs_traditional_manufacturing": "On-Demand Manufacturing vs. Traditional Manufacturing",
+        "cnc_machining": "CNC Machining",
+        "vacuum_casting": "Vacuum Casting",
+        "three_d_printing": "3D Printing",
+        "injection_molding": "Injection Molding",
+        "aluminum_tooling": "Aluminum Tooling",
+        "production_runs": "Production Runs",
+        "low_volume_production_runs": "Low Volume Production Runs",
+        "high_volume_production_runs": "High Volume Production Runs",
+        "customized_or_specialty_parts": "Customized or Specialty Parts",
+        "innovation_and_experimentation": "Innovation and Experimentation",
+        "cost_efficiency": "Cost Efficiency",
+        "resource_optimization": "Resource Optimization",
+        "production_barriers": "Production Barriers",
+        "startup_inventors_established_businesses": "Startup, Inventors, Established Businesses",
+        "recent_years": "Recent Years",
+        "groundbreaking_advancements": "Groundbreaking Advancements",
+        "on_demand_manufacturing_drives_groundbreaking_advancements": "On-Demand Manufacturing Drives Groundbreaking Advancements",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_text": "Recent years have shown how on-demand manufacturing drives groundbreaking advancements, such as:",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list": [
+            "Next-gen scientific instruments – Agile development of cutting-edge laboratory equipment",
+            "Smart home technology – Fast-tracking new devices for modern living"
+        ],
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_1": "Next-gen scientific instruments – Agile development of cutting-edge laboratory equipment",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_2": "Smart home technology – Fast-tracking new devices for modern living",
+        "on_demand_manufacturing_timeline": "On-Demand Manufacturing Timeline",
+        "on_demand_manufacturing_text_third_list_item_3": "Next-gen scientific instruments - Agile development of cutting-edge laboratory equipment",
+        "on_demand_manufacturing_text_third_list_item_3_list": [
+            "Flexibility and Personalization",
+            "Faster Turnaround Times",
+            "Cost Efficiency & Resource Optimization",
+            "Innovation at Its Core"
+        ],
+        "on_demand_manufacturing_text_fourth_list_item_3": "Next-gen scientific instruments - Agile development of cutting-edge laboratory equipment",
+        "on_demand_manufacturing_text_fourth_list_item_3_list": [
+            "Flexibility and Personalization",
+            "Faster Turnaround Times",
+            "Cost Efficiency & Resource Optimization",
+            "Innovation at Its Core"
+        ],
+        "stop_developing": "Arrête de développer"
     }
 }

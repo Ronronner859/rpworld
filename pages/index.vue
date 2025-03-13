@@ -26,10 +26,10 @@ const getGroupWidth: any = computed(() => {
     return 560;
   }
 })
-
+// 国际化
 const tableData = ref([
   {
-    feature: 'Upfront Costs',
+    feature: 'Upfront Costs', 
     traditional: 'High (Tooling, Setup)',
     onDemand: 'Low (Minimal Setup)'
   },
@@ -157,9 +157,9 @@ const image_load = (val: any) => {
         <v-table>
           <thead>
             <tr class="header-row">
-              <th class="text-center first-column">Feature</th>
-              <th class="text-center">Traditional Manufacturing</th>
-              <th class="text-center">On-Demand Manufacturing</th>
+              <th class="text-center first-column">{{ $t('rp-center-text.feature') }}</th>
+              <th class="text-center">{{ $t('rp-center-text.traditional_manufacturing') }}</th>
+              <th class="text-center">{{ $t('rp-center-text.on_demand_manufacturing_table') }}</th>
             </tr>
           </thead>
           <tbody>
@@ -189,10 +189,10 @@ const image_load = (val: any) => {
           <!-- Title Section -->
           <div class="text-left mb-6">
             <h1 class="text-title font-bold mb-2 pl-0 md:pl-0">
-              Comparing Development Timelines:
+              {{ $t('rp-center-text.comparing_development_timelines') }}
             </h1>
             <h2 class="text-title font-bold pl-0 md:pl-0">
-              On-Demand Manufacturing vs. Traditional Manufacturing
+              {{ $t('rp-center-text.on_demand_manufacturing_vs_traditional_manufacturing') }}
             </h2>
           </div>
 
@@ -202,48 +202,48 @@ const image_load = (val: any) => {
             <div class="relative">
               <div class="flex items-start gap-1">
                 <div class="w-48 md:w-48 text-left">
-                  <span class="text-blue-600 text-xl font-bold">On-demand<br>Manufacturing</span>
+                  <span class="text-blue-600 text-xl font-bold">{{ $t('rp-center-text.on_demand_manufacturing_timeline') }}</span>
                 </div>
                 <div class="flex-1 arrow-container-on-demand">
                   <div class="arrow-container">
                     <!-- Arrow 1 -->
                     <div class="arrow blue-arrow-1">
                       <div class="arrow-content">
-                        <h3 class="text-white font-semibold text-lg">Rapid Prototyping</h3>
-                        <div class="text-yellow-300 font-bold">2 <span class="text-white">weeks</span></div>
+                        <h3 class="text-white font-semibold text-lg">{{ $t('rp-center-text.rapid_prototyping') }}</h3>
+                        <div class="text-yellow-300 font-bold">2 <span class="text-white">{{ $t('rp-center-text.weeks') }}</span></div>
                       </div>
                     </div>
                     <!-- Arrow 2 -->
                     <div class="arrow blue-arrow-2">
                       <div class="arrow-content">
-                        <h3 class="text-white font-semibold text-lg">Rapid Tooling</h3>
-                        <div class="text-yellow-300 font-bold">3 <span class="text-white">weeks</span></div>
+                        <h3 class="text-white font-semibold text-lg">{{ $t('rp-center-text.rapid_tooling') }}</h3>
+                        <div class="text-yellow-300 font-bold">3 <span class="text-white">{{ $t('rp-center-text.weeks') }}</span></div>
                       </div>
                     </div>
                     <!-- Arrow 3 -->
                     <div class="arrow blue-arrow-3">
                       <div class="arrow-content">
-                        <h3 class="text-white font-semibold text-lg">Production Tooling</h3>
-                        <div class="text-yellow-300 font-bold">6 <span class="text-white">weeks</span></div>
+                        <h3 class="text-white font-semibold text-lg">{{ $t('rp-center-text.production_tooling') }}</h3>
+                        <div class="text-yellow-300 font-bold">6 <span class="text-white">{{ $t('rp-center-text.weeks') }}</span></div>
                       </div>
                     </div>
                     <!-- Time to Market -->
                     <div class="time-to-market">
-                      <span class="text-gray-800 font-semibold block">Time to Market</span>
-                      <span class="text-blue-600 font-bold text-2sm">11 weeks</span>
+                      <span class="text-gray-800 font-semibold block">{{ $t('rp-center-text.time_to_market') }}</span>
+                      <span class="text-blue-600 font-bold text-2sm"> 11 {{ $t('rp-center-text.weeks') }}</span>
                     </div>
                   </div>
                   <!-- Process descriptions -->
                   <div class="process-descriptions">
                     <div class="process-item font-bold">
-                      CNC Machining / Vacuum Casting<br>
-                      3D Printing
+                      {{ $t('rp-center-text.cnc_machining') }} / {{ $t('rp-center-text.vacuum_casting') }}<br>
+                      {{ $t('rp-center-text.three_d_printing') }}
                     </div>
                     <div class="process-item font-bold">
-                      Injection Molding (Aluminum Tooling)
+                      {{ $t('rp-center-text.injection_molding') }} ({{ $t('rp-center-text.aluminum_tooling') }})
                     </div>
                     <div class="process-item font-bold">
-                      Injection Molding
+                      {{ $t('rp-center-text.injection_molding') }}
                     </div>
                   </div>
                 </div>
@@ -254,47 +254,47 @@ const image_load = (val: any) => {
             <div class="relative arrow-container-mobile">
               <div class="flex items-start gap-1">
                 <div class="w-48 md:w-48 text-left">
-                  <span class="text-gray-700 text-xl font-bold">Traditional<br>Manufacturing</span>
+                  <span class="text-gray-700 text-xl font-bold">{{ $t('rp-center-text.traditional_manufacturing') }}</span>
                 </div>
                 <div class="flex-1 arrow-container-on-traditional">
                   <div class="arrow-container arrow-container-traditional">
                     <!-- Arrow 1 -->
                     <div class="arrow arrow-traditional gray-arrow-1">
                       <div class="arrow-content arrow-content-traditional">
-                        <h3 class="text-white font-semibold text-lg">Rapid Prototyping</h3>
-                        <div class="text-white font-bold">8 weeks</div>
+                        <h3 class="text-white font-semibold text-lg">{{ $t('rp-center-text.rapid_prototyping') }}</h3>
+                        <div class="text-white font-bold">{{ $t('rp-center-text.weeks') }}</div>
                       </div>
                     </div>
                     <!-- Arrow 2 -->
                     <div class="arrow arrow-traditional gray-arrow-2">
                       <div class="arrow-content arrow-content-traditional">
-                        <h3 class="text-white font-semibold text-lg">Rapid Tooling</h3>
-                        <div class="text-white font-bold">16 weeks</div>
+                        <h3 class="text-white font-semibold text-lg">{{ $t('rp-center-text.rapid_tooling') }}</h3>
+                        <div class="text-white font-bold">{{ $t('rp-center-text.weeks') }}</div>
                       </div>
                     </div>
                     <!-- Arrow 3 -->
                     <div class="arrow arrow-traditional gray-arrow-3">
                       <div class="arrow-content arrow-content-traditional">
-                        <h3 class="text-white font-semibold text-lg">Production Tooling</h3>
-                        <div class="text-white font-bold">16 weeks</div>
+                        <h3 class="text-white font-semibold text-lg">{{ $t('rp-center-text.production_tooling') }}</h3>
+                        <div class="text-white font-bold">{{ $t('rp-center-text.weeks') }}</div>
                       </div>
                     </div>
                     <!-- Time to Market -->
                     <div class="time-to-market">
-                      <span class="text-gray-800 font-semibold block">Time to Market</span>
-                      <span class="text-gray-700 font-bold text-2sm">40 weeks</span>
+                      <span class="text-gray-800 font-semibold block">{{ $t('rp-center-text.time_to_market') }}</span>
+                      <span class="text-gray-700 font-bold text-2sm"> 40 {{ $t('rp-center-text.weeks') }}</span>
                     </div>
                   </div>
                   <!-- Process descriptions -->
                   <div class="process-descriptions">
                     <div class="process-item font-bold">
-                      CNC Machining / 3D Printing
+                      {{ $t('rp-center-text.cnc_machining') }} / {{ $t('rp-center-text.three_d_printing') }}
                     </div>
                     <div class="process-item font-bold">
-                      Injection Molding (Steel Tooling)
+                      {{ $t('rp-center-text.injection_molding') }} ({{ $t('rp-center-text.steel_tooling') }})
                     </div>
                     <div class="process-item font-bold">
-                      Injection Molding
+                      {{ $t('rp-center-text.injection_molding') }}
                     </div>
                   </div>
                 </div>
@@ -317,16 +317,14 @@ const image_load = (val: any) => {
         <div class="content-first">
           <div class="content-first-left mr-10">
             <!-- {{ $t('rp-center-text.on_demand_manufacturing_text_first') }} -->
-            <p class="font-bold mb-2">1. Flexibility and Personalization</p>
-            <p>On-demand manufacturing enables businesses to produce exactly what is needed, precisely when it's needed.
-              This is especially beneficial for:</p>
+            <p class="font-bold mb-2">{{ $t('rp-center-text.on_demand_manufacturing_text_first_title') }}</p>
+            <p>{{ $t('rp-center-text.on_demand_manufacturing_text_first_text') }}</p>
             <ul class="list-disc pl-5">
-              <li>Prototyping and product testing</li>
-              <li>Low-volume production runs</li>
-              <li>Highly customized or specialty parts</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_first_list_item_1') }}</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_first_list_item_2') }}</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_first_list_item_3') }}</li>
             </ul>
-            <p>For instance, in the medical sector—where precision and personalization are critical—on-demand
-              manufacturing allows for the rapid production of tailored components for advanced medical devices.</p>
+            <p>{{ $t('rp-center-text.on_demand_manufacturing_text_first_text_2') }}</p>
           </div>
           <div class="content-first-right">
             <img src="~/assets/imgs/img-03.jpg" alt="Manufacturing Process" class="feature-image">
@@ -334,37 +332,28 @@ const image_load = (val: any) => {
         </div>
         <div class="content-second">
           <div class="content-second-left">
-            <p class="font-bold mb-2">2. Faster Turnaround Times</p>
-            <p>Time waits for no one, especially in industries where innovation drives competition. On-demand
-              manufacturing's streamlined workflows and advanced technologies slash production timelines, enabling
-              businesses to move from design to delivery in record time.
-              <br>
-              This rapid turnaround can be extremely beneficial for industries like automotive and consumer electronics,
-              where staying ahead of trends can make or break a product's success. The ability to quickly iterate and
-              refine designs ensures companies remain at the forefront of their markets.
-            </p>
+            <p class="font-bold mb-2">{{ $t('rp-center-text.on_demand_manufacturing_text_second_title') }}</p>
+            <p>{{ $t('rp-center-text.on_demand_manufacturing_text_second_text') }}</p>
+            <p>{{ $t('rp-center-text.on_demand_manufacturing_text_second_text_2') }}</p>
           </div>
         </div>
         <div class="content-third">
-          <p class="font-bold mb-2">3. Cost Efficiency & Resource Optimization</p>
-          <p>Traditional manufacturing relies on bulk production, leading to higher costs, excess inventory, and
-            logistical inefficiencies. On-demand manufacturing eliminates these issues by:</p>
+          <p class="font-bold mb-2">{{ $t('rp-center-text.on_demand_manufacturing_text_third_title') }}</p>
+          <p>{{ $t('rp-center-text.on_demand_manufacturing_text_third_text') }}</p>
           <ul class="list-disc pl-5">
-            <li>Producing only what is required, reducing waste</li>
-            <li>Lowering storage and inventory costs</li>
-            <li>Allowing smaller businesses to access high-quality manufacturing without massive investments</li>
+            <li>{{ $t('rp-center-text.on_demand_manufacturing_text_third_list_item_1') }}</li>
+            <li>{{ $t('rp-center-text.on_demand_manufacturing_text_third_list_item_2') }}</li>
+            <li>{{ $t('rp-center-text.on_demand_manufacturing_text_third_list_item_3') }}</li>
           </ul>
         </div>
         <div class="content-fourth">
           <div class="content-fourth-left mr-10">
-            <p class="font-bold mb-2">4. Innovation at Its Core</p>
-            <p>With lower production barriers, startups, inventors, and established businesses can experiment with new
-              ideas and iterate rapidly. Recent years have shown how on-demand manufacturing drives groundbreaking
-              advancements, such as:</p>
+            <p class="font-bold mb-2">{{ $t('rp-center-text.on_demand_manufacturing_text_fourth_title') }}</p>
+            <p>{{ $t('rp-center-text.on_demand_manufacturing_text_fourth_text') }}</p>
             <ul class="list-disc pl-5">
-              <li>Pandemic-related innovations – Rapid prototyping of ventilators and protective gear</li>
-              <li>Next-gen scientific instruments – Agile development of cutting-edge laboratory equipment</li>
-              <li>Smart home technology – Fast-tracking new devices for modern living</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_fourth_list_item_1') }}</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_fourth_list_item_2') }}</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_fourth_list_item_3') }}</li>
             </ul>
           </div>
           <div class="content-fourth-right">
@@ -372,30 +361,22 @@ const image_load = (val: any) => {
           </div>
         </div>
         <div class="content-fifth">
-          <p class="font-bold mb-2">5. Sustainability and Environmental Impact</p>
-          <p>As industries strive to reduce their environmental footprint, on-demand manufacturing offers a sustainable
-            alternative to traditional methods. By producing only what is needed, it minimizes waste and reduces energy
-            consumption. This model aligns seamlessly with the principles of the circular economy, allowing businesses
-            to meet demand responsibly while appealing to eco-conscious consumers and stakeholders.</p>
+          <p class="font-bold mb-2">{{ $t('rp-center-text.on_demand_manufacturing_text_fifth_title') }}</p>
+          <p>{{ $t('rp-center-text.on_demand_manufacturing_text_fifth_text') }}</p>
         </div>
         <!-- RPWORLD is Your Reliable Partner for On-demand Manufacturing -->
         <div class="content-sixth">
-          <p class="font-bold mb-2">RPWORLD is Your Reliable Partner for On-demand Manufacturing</p>
-          <!-- At RPWORLD, we are passionate about delivering on-demand manufacturing solutions that combine speed, flexibility, and precision. Whether you need low-volume parts, or full production runs, our expertise ensures high-quality results with fast turnaround times. -->
-          <p>At RPWORLD, we are passionate about delivering on-demand manufacturing solutions that combine speed,
-            flexibility, and precision. Whether you need low-volume parts, or full production runs, our expertise
-            ensures
-            high-quality results with fast turnaround times.</p>
+          <p class="font-bold mb-2">{{ $t('rp-center-text.on_demand_manufacturing_text_sixth_title') }}</p>
+          <p>{{ $t('rp-center-text.on_demand_manufacturing_text_sixth_text') }}</p>
         </div>
         <div class="content-seventh">
           <div class="content-first-left">
-            <p class="font-bold mb-2">Why Choose RPWORLD for On-demand Manufacturing?</p>
+            <p class="font-bold mb-2">{{ $t('rp-center-text.on_demand_manufacturing_text_seventh_title') }}</p>
             <ul class="list-disc pl-5 pt-5">
-              <li>20+ years of industry experience</li>
-              <li>Cutting-edge CNC machining, injection molding, sheet metal fabrication, full suite of finishing
-                options</li>
-              <li>Trusted by leaders in medical, automotive, and technology industries</li>
-              <li>Seamless production processes to bring your ideas to life</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_seventh_list_item_1') }}</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_seventh_list_item_2') }}</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_seventh_list_item_3') }}</li>
+              <li>{{ $t('rp-center-text.on_demand_manufacturing_text_seventh_list_item_4') }}</li>
             </ul>
           </div>
           <div class="content-first-right">
@@ -403,14 +384,11 @@ const image_load = (val: any) => {
           </div>
         </div>
         <div class="content-eighth">
-          <p class="mb-2">Ready to revolutionize your manufacturing approach? Let's build something amazing
-            together. Contact us today to discuss your next project!</p>
+          <p class="mb-2">{{ $t('rp-center-text.on_demand_manufacturing_text_eighth_text') }}</p>
         </div>
       </div>
     </v-sheet>
   </v-app>
 </template>
 
-<style scoped lang="scss">
-@import './index.scss';
-</style>
+<style scoped lang="scss" src="./index.scss"></style>

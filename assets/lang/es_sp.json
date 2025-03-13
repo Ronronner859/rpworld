@@ -1,47 +1,159 @@
 {
     "rp-world": {
-        "title": "Fabricación a la demanda vs. fabricación tradicional",
-        "description": "Fabricación a la demanda vs. fabricación tradicional",
-        "ogDescription": "Fabricación a la demanda vs. fabricación tradicional",
-        "ogTitle": "Fabricación a la demanda vs. fabricación tradicional"
+        "title": "高ミックス・低ボリューム製造 | 自動車試作 - RPWORLD",
+        "description": "RP Worldは、高ミックス・低ボリューム製造および自動車試作サービスのリーディングプロバイダーです。プロトタイプ開発から生産まで、製造ニーズに対応する幅広いサービスを提供しています。",
+        "ogDescription": "RP Worldは、高ミックス・低ボリューム製造および自動車試作サービスのリーディングプロバイダーです。プロトタイプ開発から生産まで、製造ニーズに対応する幅広いサービスを提供しています。",
+        "ogTitle": "高ミックス・低ボリューム製造 | 自動車試作 - RPWORLD"
     },
     "rp-header": {
-        "title": "OBTENER UN PRECIO",
+        "title": "見積もりを取得",
         "menu": [
             {
-                "name": "INICIO",
+                "name": "ホーム",
                 "path": "/"
             },
             {
-                "name": "SERVICIOS",
+                "name": "サービス",
                 "path": "/services"
-            },  
+            },
             {
-                "name": "MATERIALES",
+                "name": "材料",
                 "path": "/materials"
             },
             {
-                "name": "RECURSOS",
+                "name": "リソース",
                 "path": "/resources"
             },
             {
-                "name": "NOTICIAS",
+                "name": "ニュース",
                 "path": "/news"
             },
             {
-                "name": "SOBRE NOSOTROS",
+                "name": "私たちについて",
                 "path": "/about"
             }
         ]
     },
+    "rp-footer": {
+        "tags": "タグ:",
+        "on-demand-manufacturing": "オンデマンド製造",
+        "precision-manufacturing": "精密製造",
+        "injection-molding": "射出成形",
+        "cnc-machining": "CNC加工",
+        "esg-practices": "ESGプラクティス"
+    },
     "rp-center-text": {
-        "titgrocery_shopping_textsle": "From grocery shopping to hailing taxis, businesses across industries—healthcare, education, banking, and e-commerce—are shifting toward flexible and tailored solutions that meet the unique needs of customers. The manufacturing industry is no exception. On-demand manufacturing is a transformative approach that caters to the modern manufacturing demand for speed, flexibility, and precision. By enabling faster production cycles and unparalleled customization, on-demand manufacturing has become the go-to solution for turning innovative ideas into tangible results.",
-        "subtitle": "Many companies across industries are using on-demand manufacturing to realize their design visions:",
-        "medical_devices": "Medical Devices",
-        "medical_devices_text": "A fast-growing European ophthalmic device company used Urethane Casting to develop a cutting-edge diagnostic tool, slashing develop­ment time by 50% and reduce costs by 30%.",
-        "scientific_instruments": "Scientific Instruments",
-        "scientific_instruments_text": "A leading biotech research company used on-de­mand manufacturing to develop an innovative spectrometer, accelerating its development cycle by 40%.",
-        "automotive": "Automotive",
-        "title_fabrication": "Fabricación a la demanda vs. fabricación tradicional"
+        "grocery_shopping_text": "食料品の購入からタクシーの呼び出しまで、ヘルスケア、教育、銀行、eコマースなどのさまざまな業界で、企業は顧客のユニークなニーズに対応する柔軟でカスタマイズされたソリューションにシフトしています。製造業も例外ではありません。オンデマンド製造は、スピード、柔軟性、精度に対する現代の製造需要に応える変革的なアプローチです。より迅速な生産サイクルと比類のないカスタマイズを実現することで、オンデマンド製造は革新的なアイデアを具現化するための最適なソリューションとなっています。",
+        "subtitle": "多くの業界の企業がオンデマンド製造を使用して、デザインビジョンを実現しています：",
+        "medical_devices": "医療機器",
+        "medical_devices_text": "急成長中のヨーロッパの眼科機器企業は、ウレタンキャスティングを使用して最先端の診断ツールを開発し、開発時間を50%短縮し、コストを30%削減しました。",
+        "scientific_instruments": "科学機器",
+        "scientific_instruments_text": "リーディングバイオテクノロジー企業は、オンデマンド製造を使用して革新的な分光計を開発し、開発サイクルを40%加速しました。",
+        "automotive": "自動車",
+        "automotive_text": "自動車メーカーは、低ボリューム生産と迅速なプロトタイピングを統合してデザインの反復を効率化し、概念からテストまでの時間を60%以上短縮しました。",
+        "title_fabrication": "オンデマンド製造 vs. 伝統的な製造",
+        "title_fabrication_text": "伝統的な製造が非効率性のために企業に毎年何百万ものコストをもたらすことをご存知ですか？ 高額な初期投資、長い生産スケジュール、硬直したプロセスは、イノベーションを抑制し、進捗を遅らせる原因となります。オンデマンド製造は、不要なオーバーヘッドを排除し、企業が創造性と市場対応力を優先できるようにすることでゲームを変えます。確立された業界のリーダーであろうと、ダイナミックなスタートアップであろうと、オンデマンド製造はより速い生産サイクル、より多くのカスタマイズ、そして大幅なコスト削減を提供します。以下のチャートで、伝統的な製造とオンデマンド製造を比較してください：",
+        "on_demand_manufacturing": "なぜオンデマンド製造を愛するのか",
+        "on_demand_manufacturing_text": "オンデマンド製造は、伝統的な方法では実現できないスピード、柔軟性、コスト効率を企業にもたらすゲームチェンジャーです。以下の理由で重要です：",
+        "product_development_journey": "製品開発の旅において、伝統的な製造とオンデマンド製造の違いは以下のチャートで明確に示されており、それぞれのアプローチの利点と課題が紹介されています。",
+        "on_demand_vs_traditional": "オンデマンド製造 vs. 伝統的な製造",
+        "on_demand_vs_traditional_text": "伝統的な製造が非効率性のために企業に毎年何百万ものコストをもたらすことをご存知ですか？ 高額な初期投資、長い生産スケジュール、硬直したプロセスは、イノベーションを抑制し、進捗を遅らせる原因となります。オンデマンド製造は、不要なオーバーヘッドを排除し、企業が創造性と市場対応力を優先できるようにすることでゲームを変えます。確立された業界のリーダーであろうと、ダイナミックなスタートアップであろうと、オンデマンド製造はより速い生産サイクル、より多くのカスタマイズ、そして大幅なコスト削減を提供します。以下のチャートで、伝統的な製造とオンデマンド製造を比較してください：",
+        "on_demand_manufacturing_text_first_title": "1. 柔軟性と個別対応",
+        "on_demand_manufacturing_text_first_text": "オンデマンド製造は、ビジネスが必要なものを、必要なときに正確に生産できるようにします。これは特に以下のような場合に有益です：",
+        "on_demand_manufacturing_text_first_list": [
+            "プロトタイピングと製品テスト",
+            "低ボリューム生産",
+            "高度にカスタマイズされたまたは特別な部品"
+        ],
+        "on_demand_manufacturing_text_first_list_item_1": "プロトタイピングと製品テスト",
+        "on_demand_manufacturing_text_first_list_item_2": "低ボリューム生産",
+        "on_demand_manufacturing_text_first_list_item_3": "高度にカスタマイズされたまたは特別な部品",
+        "on_demand_manufacturing_text_first_text_2": "たとえば、精度と個別対応が重要な医療分野では、オンデマンド製造により、先進的な医療機器のためのカスタマイズされた部品の迅速な生産が可能になります。",
+        "on_demand_manufacturing_text_second_title": "2. より速いターンアラウンドタイム",
+        "on_demand_manufacturing_text_second_text": "時間は誰にも待ってくれません、特にイノベーションが競争を生み出す業界では。オンデマンド製造の効率化されたワークフローと先進技術により、生産スケジュールが大幅に短縮され、ビジネスはデザインから納品までのスピードを記録的な速さで実現できます。",
+        "on_demand_manufacturing_text_second_text_2": "この迅速なターンアラウンドは、トレンドを先取りすることが製品の成功を左右する自動車や消費者向け電子機器などの業界にとって非常に有益です。迅速にデザインを反復し、洗練させる能力により、企業は市場の最前線に立ち続けることができます。",
+        "on_demand_manufacturing_text_third_title": "3. コスト効率とリソース最適化",
+        "on_demand_manufacturing_text_third_text": "伝統的な製造は大量生産に依存しているため、コストが高く、在庫過剰や物流の非効率性を引き起こします。オンデマンド製造は、これらの問題を排除することができます：",
+        "on_demand_manufacturing_text_third_list": [
+            "在庫および保管コストの削減",
+            "小規模企業が大規模な投資なしで高品質な製造にアクセスできるようにする"
+        ],
+        "on_demand_manufacturing_text_third_list_item_1": "在庫および保管コストの削減",
+        "on_demand_manufacturing_text_third_list_item_2": "小規模企業が大規模な投資なしで高品質な製造にアクセスできるようにする",
+        "on_demand_manufacturing_text_fourth_title": "4. イノベーションの核心",
+        "on_demand_manufacturing_text_fourth_text": "生産の障壁が低くなったことで、スタートアップ、発明家、確立された企業は新しいアイデアを試し、迅速に反復できます。最近では、オンデマンド製造がいかに画期的な進歩を促進しているかが示されています：",
+        "on_demand_manufacturing_text_fourth_list": [
+            "次世代科学機器 - 最先端の実験機器のアジャイル開発",
+            "スマートホーム技術 - 現代生活のための新しいデバイスの迅速な開発"
+        ],
+        "on_demand_manufacturing_text_fourth_list_item_1": "次世代科学機器",
+        "on_demand_manufacturing_text_fourth_list_item_2": "スマートホーム技術",
+        "on_demand_manufacturing_text_fifth_title": "RPWORLDはオンデマンド製造の信頼できるパートナーです",
+        "on_demand_manufacturing_text_fifth_text": "RPWORLDでは、迅速さ、柔軟性、精度を兼ね備えたオンデマンド製造ソリューションの提供に情熱を注いでいます。少量生産の部品でも、フル生産ランでも、私たちの専門知識が迅速な納期で高品質な結果を保証します。",
+        "on_demand_manufacturing_text_sixth_title": "RPWORLDはオンデマンド製造の信頼できるパートナーです",
+        "on_demand_manufacturing_text_sixth_text": "RPWORLDでは、迅速さ、柔軟性、精度を兼ね備えたオンデマンド製造ソリューションの提供に情熱を注いでいます。少量生産の部品でも、フル生産ランでも、私たちの専門知識が迅速な納期で高品質な結果を保証します。",
+        "on_demand_manufacturing_text_seventh_title": "なぜRPWORLDをオンデマンド製造のパートナーとして選ぶのか？",
+        "on_demand_manufacturing_text_seventh_list": [
+            "業界での20年以上の経験",
+            "最先端のCNC加工、射出成形、板金加工、各種仕上げオプション"
+        ],
+        "on_demand_manufacturing_text_seventh_list_item_1": "業界での20年以上の経験",
+        "on_demand_manufacturing_text_seventh_list_item_2": "最先端のCNC加工、射出成形、板金加工、各種仕上げオプション",
+        "on_demand_manufacturing_text_seventh_list_item_3": "医療、 automotive、テクノロジー業界のリーダーに信頼されています",
+        "on_demand_manufacturing_text_seventh_list_item_4": "アイデアを実現するためのシームレスな生産プロセス",
+        "on_demand_manufacturing_text_eighth_text": "製造アプローチを革新する準備はできていますか？一緒に素晴らしいものを作りましょう。次のプロジェクトについてご相談ください！",
+        "feature": "特徴",
+        "traditional_manufacturing": "従来の製造",
+        "on_demand_manufacturing_table": "オンデマンド製造",
+        "weeks": "週間",
+        "rapid_prototyping": "迅速なプロト",
+        "rapid_tooling": "迅速なツーリング",
+        "production_tooling": "生産ツーリング",
+        "time_to_market": "市場投入までの時間",
+        "upfront_costs": "前払い費用",
+        "low_volume_production": "少量生産",
+        "highly_customized_or_specialty_parts": "高度にカスタマイズされたまたは特殊な部品",
+        "comparing_development_timelines": "開発タイムラインの比較：",
+        "on_demand_manufacturing_vs_traditional_manufacturing": "オンデマンド製造 vs. 従来の製造",
+        "cnc_machining": "CNC加工",
+        "vacuum_casting": "真空鋳造",
+        "three_d_printing": "3Dプリンティング",
+        "injection_molding": "射出成形",
+        "aluminum_tooling": "アルミニウムツーリング",
+        "production_runs": "生産ラン",
+        "low_volume_production_runs": "少量生産ラン",
+        "high_volume_production_runs": "大量生産ラン",
+        "customized_or_specialty_parts": "カスタマイズまたは特殊部品",
+        "innovation_and_experimentation": "革新と実験",
+        "cost_efficiency": "コスト効率",
+        "resource_optimization": "リソースの最適化",
+        "production_barriers": "生産障壁",
+        "startup_inventors_established_businesses": "スタートアップ、発明家、確立された企業",
+        "recent_years": "近年",
+        "groundbreaking_advancements": "画期的な進展",
+        "on_demand_manufacturing_drives_groundbreaking_advancements": "オンデマンド製造が画期的な進展を促進",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_text": "近年、オンデマンド製造が画期的な進展を促進しています。例えば：",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list": [
+            "次世代科学機器 – 最先端の実験機器のアジャイル開発",
+            "スマートホーム技術 – 現代の生活のための新しいデバイスの迅速な開発"
+        ],
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_1": "次世代科学機器 – 最先端の実験機器のアジャイル開発",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_2": "スマートホーム技術 – 現代の生活のための新しいデバイスの迅速な開発",
+        "on_demand_manufacturing_timeline": "オンデマンド製造タイムライン",
+        "on_demand_manufacturing_text_third_list_item_3": "次世代科学機器 - 最先端の実験機器のアジャイル開発",
+        "on_demand_manufacturing_text_third_list_item_3_list": [
+            "柔軟性とパーソナライズ",
+            "迅速なターンアラウンドタイム",
+            "コスト効率とリソース最適化",
+            "革新の本質"
+        ],
+        "on_demand_manufacturing_text_fourth_list_item_3": "次世代科学機器 - 最先端の実験機器のアジャイル開発",
+        "on_demand_manufacturing_text_fourth_list_item_3_list": [
+            "柔軟性とパーソナライズ",
+            "迅速なターンアラウンドタイム",
+            "コスト効率とリソース最適化",
+            "革新の本質"
+        ],
+        "stop_developing": "開発を停止"
     }
 }

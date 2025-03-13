@@ -1,13 +1,13 @@
 <template>
     <footer class="footer-container mx-auto">
         <div class="tags-section">
-            <span class="tags-label">Tags:</span>
+            <span class="tags-label">{{ $t('rp-footer.tags') }}</span>
             <div class="tags-list">
-                <NuxtLink class="tag-link">On-demand manufacturing</NuxtLink>
-                <NuxtLink class="tag-link">Precision manufacturing</NuxtLink>
-                <NuxtLink class="tag-link">Injection molding</NuxtLink>
-                <NuxtLink class="tag-link">CNC machining</NuxtLink>
-                <NuxtLink class="tag-link">ESG Practices</NuxtLink>
+                <NuxtLink class="tag-link">{{ $t('rp-footer.on-demand-manufacturing') }}</NuxtLink>
+                <NuxtLink class="tag-link">{{ $t('rp-footer.precision-manufacturing') }}</NuxtLink>
+                <NuxtLink class="tag-link">{{ $t('rp-footer.injection-molding') }}</NuxtLink>
+                <NuxtLink class="tag-link">{{ $t('rp-footer.cnc-machining') }}</NuxtLink>
+                <NuxtLink class="tag-link">{{ $t('rp-footer.esg-practices') }}</NuxtLink>
             </div>
         </div>
     </footer>

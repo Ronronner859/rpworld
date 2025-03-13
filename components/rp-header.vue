@@ -1,7 +1,31 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 const { locale, setLocale } = useI18n()
+
+// 屏幕尺寸
+const screenSize = ref({
+  width: 0,
+  height: 0
+});
+
+// 更新屏幕尺寸
+const updateScreenSize = () => {
+  screenSize.value = {
+    width: window.innerWidth,
+    height: window.innerHeight
+  };
+};
+
+// 监听窗口大小变化
+onMounted(() => {
+  updateScreenSize();
+  window.addEventListener('resize', updateScreenSize);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('resize', updateScreenSize);
+});
 
 // 导航菜单项
 const menuItems = [
@@ -25,11 +49,11 @@ const toggleMobileMenu = () => {
 <template>
   <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
     <div class="container mx-auto px-4">
-      <nav class="flex items-center justify-between h-20">
+      <nav class="flex items-center justify-between header-height">
         <!-- Left Side: Logo -->
         <div class="flex-shrink-0">
           <NuxtLink to="/" class="block">
-            <img src="~/assets/imgs/logo.png" alt="RPWORLD" class="w-[337px] h-[50px]">
+            <img src="~/assets/imgs/logo.png" alt="RPWORLD" class="logo-image">
           </NuxtLink>
         </div>
 
@@ -41,7 +65,7 @@ const toggleMobileMenu = () => {
               v-for="(item, index) in menuItems"
               :key="item.name"
               :to="item.path"
-              class="text-[12px] text-[#555555] hover:text-red-600 transition-colors duration-200 font-bold"
+              class="nav-item text-[#555555] hover:text-red-600 transition-colors duration-200 font-bold"
             >
               {{ $t(`rp-header.menu[${index}].name`) }}
             </NuxtLink>
@@ -59,32 +83,36 @@ const toggleMobileMenu = () => {
           <!-- 中英文切换-->
           <v-menu>
             <template v-slot:activator="{ props }">
-              <div class="ml-4">
-                <v-btn color="#e50012" icon="mdi-translate" v-bind="props">{{ locale.toUpperCase() }}</v-btn>
+              <div class="ml-4 language-switch">
+                <v-btn 
+                  color="#e50012" 
+                  icon="mdi-translate" 
+                  v-bind="props"
+                  class="language-btn"
+                  :class="{'mobile-lang-btn': screenSize.width <= 768}"
+                >
+                  {{ locale.toUpperCase() }}
+                </v-btn>
               </div>
             </template>
-            <v-list>
-              <v-list-item @click="setLocale('en')">
+            <v-list class="language-list">
+              <v-list-item @click="setLocale('en')" class="lang-item">
                 <v-list-item-title
                   :class="locale === 'en' ? 'text-[#177FD5]' : 'text-[#413E3A]'">English</v-list-item-title>
               </v-list-item>
-              <!-- <v-list-item @click="setLocale('zh')">
-                <v-list-item-title :class="locale === 'zh' ? 'text-[#177FD5]' : 'text-[#413E3A]'">Simplified
-                  Chinese</v-list-item-title>
-              </v-list-item> -->
-              <v-list-item @click="setLocale('de')">
+              <v-list-item @click="setLocale('de')" class="lang-item">
                 <v-list-item-title
                   :class="locale === 'de' ? 'text-[#177FD5]' : 'text-[#413E3A]'">German</v-list-item-title>
               </v-list-item>
-              <v-list-item @click="setLocale('fr')">
+              <v-list-item @click="setLocale('fr')" class="lang-item">
                 <v-list-item-title
                   :class="locale === 'fr' ? 'text-[#177FD5]' : 'text-[#413E3A]'">French</v-list-item-title>
               </v-list-item>
-              <v-list-item @click="setLocale('es')">
+              <v-list-item @click="setLocale('es')" class="lang-item">
                 <v-list-item-title
                   :class="locale === 'es' ? 'text-[#177FD5]' : 'text-[#413E3A]'">Japanese</v-list-item-title>
               </v-list-item>
-              <v-list-item @click="setLocale('it')">
+              <v-list-item @click="setLocale('it')" class="lang-item">
                 <v-list-item-title
                   :class="locale === 'it' ? 'text-[#177FD5]' : 'text-[#413E3A]'">Italian</v-list-item-title>
               </v-list-item>
@@ -103,7 +131,7 @@ const toggleMobileMenu = () => {
       </nav>
 
       <!-- Mobile Menu -->
-      <div v-show="isMobileMenuOpen" class="lg:hidden fixed top-20 left-0 right-0 bg-white shadow-lg z-50">
+      <div v-show="isMobileMenuOpen" class="lg:hidden fixed top-20 left-0 right-0 bg-white shadow-lg z-50 mobile-menu">
         <div class="py-2 space-y-2">
           <!-- Language Switcher for Mobile -->
           <div class="px-4 py-2 border-b border-gray-100">
@@ -112,10 +140,6 @@ const toggleMobileMenu = () => {
                 :class="locale === 'en' ? 'bg-red-50 text-red-600' : 'text-[#555555]'">
                 English
               </button>
-              <!-- <button @click="setLocale('zh')" class="flex-1 py-2 px-4 rounded-md text-[12px]"
-                :class="locale === 'zh' ? 'bg-red-50 text-red-600' : 'text-[#555555]'">
-                Simplified Chinese
-              </button> -->
               <button @click="setLocale('de')" class="flex-1 py-2 px-4 rounded-md text-[12px]"
                 :class="locale === 'de' ? 'bg-red-50 text-red-600' : 'text-[#555555]'">
                 German
@@ -165,6 +189,127 @@ const toggleMobileMenu = () => {
   .container {
     max-width: 100%;
     padding: 0 20px;
+  }
+}
+
+.language-switch {
+  position: relative;
+}
+
+.language-btn {
+  font-size: 14px;
+  height: 36px !important;
+  width: 36px !important;
+}
+
+.mobile-lang-btn {
+  height: 32px !important;
+  width: 32px !important;
+  font-size: 12px;
+}
+
+.language-list {
+  min-width: 150px;
+}
+
+.lang-item {
+  padding: 8px 16px;
+}
+
+@media (max-width: 480px) {
+  .language-btn {
+    margin-right: 8px;
+  }
+  
+  .lang-item {
+    padding: 6px 12px;
+  }
+}
+
+/* 移动端菜单样式优化 */
+.mobile-menu {
+  max-height: calc(100vh - 80px);
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .mobile-menu-button {
+    padding: 8px;
+  }
+  
+  .mobile-menu-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-menu-button {
+    padding: 6px;
+  }
+  
+  .mobile-menu-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* 导航菜单项样式优化 */
+.nav-item {
+  padding: 12px 16px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-item {
+    padding: 8px 12px;
+    font-size: 13px;
+  }
+}
+
+/* Logo 响应式调整 */
+.logo-image {
+  width: 337px;
+  height: 50px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    width: 270px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    width: 200px;
+    height: 30px;
+  }
+}
+
+/* Header 高度响应式调整 */
+.header-height {
+  height: 80px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .header-height {
+    height: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-height {
+    height: 60px;
   }
 }
 </style>

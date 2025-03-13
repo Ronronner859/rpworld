@@ -1,19 +1,19 @@
 {
     "rp-world": {
-        "title": "Produzione su richiesta vs. produzione tradizionale",
-        "description": "Produzione su richiesta vs. produzione tradizionale",
-        "ogDescription": "Produzione su richiesta vs. produzione tradizionale",
-        "ogTitle": "Produzione su richiesta vs. produzione tradizionale"
+        "title": "Produzione ad Alta Miscelazione e Basso Volume | Prototipazione Automobilistica - RPWORLD",
+        "description": "RP World è un fornitore leader di servizi di produzione ad alta miscelazione e basso volume e di prototipazione automobilistica. Offriamo una vasta gamma di servizi per soddisfare le vostre esigenze di produzione, dallo sviluppo del prototipo alla produzione.",
+        "ogDescription": "RP World è un fornitore leader di servizi di produzione ad alta miscelazione e basso volume e di prototipazione automobilistica. Offriamo una vasta gamma di servizi per soddisfare le vostre esigenze di produzione, dallo sviluppo del prototipo alla produzione.",
+        "ogTitle": "Produzione ad Alta Miscelazione e Basso Volume | Prototipazione Automobilistica - RPWORLD"
     },
     "rp-header": {
-        "title": "CHIEDI UN PREZZO",
+        "title": "OTTENERE UN PREVENTIVO",
         "menu": [
             {
                 "name": "HOME",
                 "path": "/"
             },
             {
-                "name": "SERVICES",
+                "name": "SERVIZI",
                 "path": "/services"
             },
             {
@@ -25,7 +25,7 @@
                 "path": "/resources"
             },
             {
-                "name": "NOTIZIE",
+                "name": "NEWS",
                 "path": "/news"
             },
             {
@@ -34,14 +34,126 @@
             }
         ]
     },
+    "rp-footer": {
+        "tags": "Tag:",
+        "on-demand-manufacturing": "Produzione su richiesta",
+        "precision-manufacturing": "Produzione di precisione",
+        "injection-molding": "Stampaggio ad iniezione",
+        "cnc-machining": "Lavorazione CNC",
+        "esg-practices": "Pratiche ESG"
+    },
     "rp-center-text": {
-        "grocery_shopping_text": "From grocery shopping to hailing taxis, businesses across industries—healthcare, education, banking, and e-commerce—are shifting toward flexible and tailored solutions that meet the unique needs of customers. The manufacturing industry is no exception. On-demand manufacturing is a transformative approach that caters to the modern manufacturing demand for speed, flexibility, and precision. By enabling faster production cycles and unparalleled customization, on-demand manufacturing has become the go-to solution for turning innovative ideas into tangible results.",
-        "subtitle": "Many companies across industries are using on-demand manufacturing to realize their design visions:",
-        "medical_devices": "Medical Devices",
-        "medical_devices_text": "A fast-growing European ophthalmic device company used Urethane Casting to develop a cutting-edge diagnostic tool, slashing develop­ment time by 50% and reduce costs by 30%.",
-        "scientific_instruments": "Scientific Instruments",
-        "scientific_instruments_text": "A leading biotech research company used on-de­mand manufacturing to develop an innovative spectrometer, accelerating its development cycle by 40%.",
-        "automotive": "Automotive",
-        "title_fabrication": "Fabbricazione su richiesta vs. fabbricazione tradizionale"
+        "grocery_shopping_text": "Dallo shopping per generi alimentari al chiamare i taxi, le aziende di vari settori—sanità, educazione, banche e commercio elettronico—si stanno orientando verso soluzioni flessibili e personalizzate che soddisfano le esigenze uniche dei clienti. Anche il settore manifatturiero non fa eccezione. La produzione su richiesta è un approccio trasformativo che soddisfa la domanda moderna di velocità, flessibilità e precisione nella produzione. Consentendo cicli di produzione più veloci e una personalizzazione senza pari, la produzione su richiesta è diventata la soluzione preferita per trasformare idee innovative in risultati tangibili.",
+        "subtitle": "Molte aziende di vari settori stanno utilizzando la produzione su richiesta per realizzare le loro visioni progettuali:",
+        "medical_devices": "Dispositivi Medici",
+        "medical_devices_text": "Un'azienda oftalmica in rapida crescita in Europa ha utilizzato la colata in Uretano per sviluppare uno strumento diagnostico all'avanguardia, riducendo il tempo di sviluppo del 50% e i costi del 30%.",
+        "scientific_instruments": "Strumenti Scientifici",
+        "scientific_instruments_text": "Una delle principali aziende biotecnologiche ha utilizzato la produzione su richiesta per sviluppare uno spettrometro innovativo, accelerando il ciclo di sviluppo del 40%.",
+        "automotive": "Automobile",
+        "automotive_text": "I costruttori automobilistici stanno integrando la produzione a basso volume e la prototipazione rapida per ottimizzare le iterazioni del design, riducendo il tempo da concetto a test di oltre il 60%.",
+        "title_fabrication": "Fabbricazione su richiesta vs. fabbricazione tradizionale",
+        "title_fabrication_text": "Lo sapevate che la fabbricazione tradizionale può costare alle aziende milioni ogni anno a causa delle inefficienze? Gli alti investimenti iniziali, i lunghi tempi di produzione e i processi rigidi possono soffocare l'innovazione e rallentare i progressi. La fabbricazione su richiesta cambia il gioco eliminando i costi inutili, consentendo alle aziende di dare priorità alla creatività e alla reattività del mercato. Sia che si tratti di un leader consolidato nel settore o di una startup dinamica, la produzione su richiesta offre cicli di produzione più rapidi, maggiore personalizzazione e significativi risparmi sui costi. Di seguito trovate il grafico con la fabbricazione tradizionale rispetto alla fabbricazione su richiesta:",
+        "on_demand_manufacturing": "Perché amiamo la produzione su richiesta",
+        "on_demand_manufacturing_text": "La produzione su richiesta è una rivoluzione per le aziende, combinando velocità, flessibilità ed efficienza dei costi in modi che i metodi tradizionali non possono. Ecco perché è importante:",
+        "product_development_journey": "Quando si tratta del percorso di sviluppo del prodotto, le differenze tra la produzione tradizionale e quella su richiesta sono chiaramente evidenziate nel grafico sottostante, che mostra i vantaggi e le sfide distintive di ciascun approccio.",
+        "on_demand_vs_traditional": "Produzione su richiesta vs. produzione tradizionale",
+        "on_demand_vs_traditional_text": "Lo sapevate che la fabbricazione tradizionale può costare alle aziende milioni ogni anno a causa delle inefficienze? Gli alti investimenti iniziali, i lunghi tempi di produzione e i processi rigidi possono soffocare l'innovazione e rallentare i progressi. La fabbricazione su richiesta cambia il gioco eliminando i costi inutili, consentendo alle aziende di dare priorità alla creatività e alla reattività del mercato. Sia che si tratti di un leader consolidato nel settore o di una startup dinamica, la produzione su richiesta offre cicli di produzione più rapidi, maggiore personalizzazione e significativi risparmi sui costi. Di seguito trovate il grafico con la fabbricazione tradizionale rispetto alla fabbricazione su richiesta:",
+        "on_demand_manufacturing_text_first_title": "1. Flessibilità e Personalizzazione",
+        "on_demand_manufacturing_text_first_text": "La produzione su richiesta consente alle aziende di produrre esattamente ciò che è necessario, proprio quando è necessario. Questo è particolarmente vantaggioso per:",
+        "on_demand_manufacturing_text_first_list": [
+            "Prototipazione e test del prodotto",
+            "Produzione a basso volume",
+            "Parti altamente personalizzate o speciali"
+        ],
+        "on_demand_manufacturing_text_first_list_item_1": "Prototipazione e test del prodotto",
+        "on_demand_manufacturing_text_first_list_item_2": "Produzione a basso volume",
+        "on_demand_manufacturing_text_first_list_item_3": "Parti altamente personalizzate o speciali",
+        "on_demand_manufacturing_text_first_text_2": "Ad esempio, nel settore medico—dove la precisione e la personalizzazione sono fondamentali—la produzione su richiesta consente una produzione rapida di componenti personalizzati per dispositivi medici avanzati.",
+        "on_demand_manufacturing_text_second_title": "2. Tempi di consegna più rapidi",
+        "on_demand_manufacturing_text_second_text": "Il tempo non aspetta nessuno, soprattutto in settori dove l'innovazione guida la concorrenza. I flussi di lavoro snelli e le tecnologie avanzate della produzione su richiesta riducono i tempi di produzione, consentendo alle aziende di passare dal design alla consegna in tempi record.",
+        "on_demand_manufacturing_text_second_text_2": "Questo rapido tempo di consegna può essere estremamente vantaggioso per settori come l'automotive e l'elettronica di consumo, dove rimanere al passo con le tendenze può determinare il successo o il fallimento di un prodotto. La possibilità di iterare rapidamente e affinare i design garantisce che le aziende rimangano all'avanguardia nei loro mercati.",
+        "on_demand_manufacturing_text_third_title": "3. Efficienza dei costi e ottimizzazione delle risorse",
+        "on_demand_manufacturing_text_third_text": "La produzione tradizionale si basa sulla produzione in grandi quantità, con conseguenti costi più elevati, inventario in eccesso e inefficienze logistiche. La produzione su richiesta elimina questi problemi:",
+        "on_demand_manufacturing_text_third_list": [
+            "Ridurre i costi di stoccaggio e inventario",
+            "Consentire alle piccole imprese di accedere a una produzione di alta qualità senza investimenti massicci"
+        ],
+        "on_demand_manufacturing_text_third_list_item_1": "Ridurre i costi di stoccaggio e inventario",
+        "on_demand_manufacturing_text_third_list_item_2": "Consentire alle piccole imprese di accedere a una produzione di alta qualità senza investimenti massicci",
+        "on_demand_manufacturing_text_fourth_title": "4. Innovazione al centro",
+        "on_demand_manufacturing_text_fourth_text": "Con barriere di produzione inferiori, startup, inventori e aziende consolidate possono sperimentare nuove idee e iterare rapidamente. Gli ultimi anni hanno dimostrato come la produzione su richiesta stia guidando progressi innovativi, come:",
+        "on_demand_manufacturing_text_fourth_list": [
+            "Strumenti scientifici di nuova generazione – Sviluppo agile di attrezzature di laboratorio all'avanguardia",
+            "Tecnologia per la casa intelligente – Accelerazione di nuovi dispositivi per la vita moderna"
+        ],
+        "on_demand_manufacturing_text_fourth_list_item_1": "Strumenti scientifici di nuova generazione – Sviluppo agile di attrezzature di laboratorio all'avanguardia",
+        "on_demand_manufacturing_text_fourth_list_item_2": "Tecnologia per la casa intelligente – Accelerazione di nuovi dispositivi per la vita moderna",
+        "on_demand_manufacturing_text_fifth_title": "RPWORLD è il tuo partner affidabile per la produzione on-demand",
+        "on_demand_manufacturing_text_fifth_text": "In RPWORLD, siamo appassionati nel fornire soluzioni di produzione on-demand che combinano velocità, flessibilità e precisione. Che tu abbia bisogno di parti in bassa quantità o produzioni complete, la nostra esperienza garantisce risultati di alta qualità con tempi di consegna rapidi.",
+        "on_demand_manufacturing_text_sixth_title": "RPWORLD è il tuo partner affidabile per la produzione on-demand",
+        "on_demand_manufacturing_text_sixth_text": "In RPWORLD, siamo appassionati nel fornire soluzioni di produzione on-demand che combinano velocità, flessibilità e precisione. Che tu abbia bisogno di parti in bassa quantità o produzioni complete, la nostra esperienza garantisce risultati di alta qualità con tempi di consegna rapidi.",
+        "on_demand_manufacturing_text_seventh_title": "Perché scegliere RPWORLD per la produzione on-demand?",
+        "on_demand_manufacturing_text_seventh_list": [
+            "Oltre 20 anni di esperienza nel settore",
+            "Tecnologie all'avanguardia come CNC, stampaggio a iniezione, fabbricazione di lamiere e una suite completa di opzioni di finitura"
+        ],
+        "on_demand_manufacturing_text_seventh_list_item_1": "Oltre 20 anni di esperienza nel settore",
+        "on_demand_manufacturing_text_seventh_list_item_2": "Tecnologie all'avanguardia come CNC, stampaggio a iniezione, fabbricazione di lamiere e una suite completa di opzioni di finitura",
+        "on_demand_manufacturing_text_seventh_list_item_3": "Affidato da leader nei settori medico, automobilistico e tecnologico",
+        "on_demand_manufacturing_text_seventh_list_item_4": "Processi di produzione senza soluzione di continuità per trasformare le tue idee in realtà",
+        "on_demand_manufacturing_text_eighth_text": "Pronto a rivoluzionare il tuo approccio alla produzione? Costruiamo qualcosa di straordinario insieme. Contattaci oggi per discutere il tuo prossimo progetto!",
+        "feature": "Caratteristiche",
+        "traditional_manufacturing": "Produzione tradizionale",
+        "on_demand_manufacturing_table": "Produzione on-demand",
+        "weeks": "settimane",
+        "rapid_prototyping": "Prototipazione rapida",
+        "rapid_tooling": "Strumenti rapidi",
+        "production_tooling": "Strumenti per la produzione",
+        "time_to_market": "Tempo di immissione sul mercato",
+        "upfront_costs": "Costi iniziali",
+        "low_volume_production": "Produzione a bassa quantità",
+        "highly_customized_or_specialty_parts": "Parti altamente personalizzate o specialistiche",
+        "comparing_development_timelines": "Confronto delle tempistiche di sviluppo:",
+        "on_demand_manufacturing_vs_traditional_manufacturing": "Produzione on-demand vs produzione tradizionale",
+        "cnc_machining": "Lavorazione CNC",
+        "vacuum_casting": "Colata sotto vuoto",
+        "three_d_printing": "Stampa 3D",
+        "injection_molding": "Stampaggio a iniezione",
+        "aluminum_tooling": "Attrezzatura in alluminio",
+        "production_runs": "Produzioni in serie",
+        "low_volume_production_runs": "Produzioni a bassa quantità",
+        "high_volume_production_runs": "Produzioni a alta quantità",
+        "customized_or_specialty_parts": "Parti personalizzate o specialistiche",
+        "innovation_and_experimentation": "Innovazione e sperimentazione",
+        "cost_efficiency": "Efficienza dei costi",
+        "resource_optimization": "Ottimizzazione delle risorse",
+        "production_barriers": "Barriere alla produzione",
+        "startup_inventors_established_businesses": "Startup, inventori, aziende consolidate",
+        "recent_years": "Anni recenti",
+        "groundbreaking_advancements": "Avanzamenti rivoluzionari",
+        "on_demand_manufacturing_drives_groundbreaking_advancements": "La produzione on-demand guida avanzamenti rivoluzionari",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_text": "Gli ultimi anni hanno dimostrato come la produzione on-demand stia guidando avanzamenti rivoluzionari, come ad esempio:",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list": [
+            "Strumenti scientifici di nuova generazione – Sviluppo agile di attrezzature di laboratorio all'avanguardia",
+            "Tecnologia per la casa intelligente – Accelerazione di nuovi dispositivi per la vita moderna"
+        ],
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_1": "Strumenti scientifici di nuova generazione – Sviluppo agile di attrezzature di laboratorio all'avanguardia",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_2": "Tecnologia per la casa intelligente – Accelerazione di nuovi dispositivi per la vita moderna",
+        "on_demand_manufacturing_timeline": "Timeline della produzione on-demand",
+        "on_demand_manufacturing_text_third_list_item_3": "Strumenti scientifici di nuova generazione - Sviluppo agile di attrezzature di laboratorio all'avanguardia",
+        "on_demand_manufacturing_text_third_list_item_3_list": [
+            "Flessibilità e personalizzazione",
+            "Tempi di consegna più rapidi",
+            "Efficienza dei costi e ottimizzazione delle risorse",
+            "Innovazione al suo centro"
+        ],
+        "on_demand_manufacturing_text_fourth_list_item_3": "Strumenti scientifici di nuova generazione - Sviluppo agile di attrezzature di laboratorio all'avanguardia",
+        "on_demand_manufacturing_text_fourth_list_item_3_list": [
+            "Flessibilità e personalizzazione",
+            "Tempi di consegna più rapidi",
+            "Efficienza dei costi e ottimizzazione delle risorse",
+            "Innovazione al suo centro"
+        ],
+        "stop_developing": "Smetti di sviluppare"
     }
 }

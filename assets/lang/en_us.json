@@ -34,6 +34,14 @@
       } 
     ]
   },
+  "rp-footer": {
+    "tags": "Tags:",
+    "on-demand-manufacturing": "On-demand manufacturing",
+    "precision-manufacturing": "Precision manufacturing",
+    "injection-molding": "Injection molding",
+    "cnc-machining": "CNC machining",
+    "esg-practices": "ESG Practices"
+  },
   "rp-center-text": {
     "grocery_shopping_text": "From grocery shopping to hailing taxis, businesses across industries—healthcare, education, banking, and e-commerce—are shifting toward flexible and tailored solutions that meet the unique needs of customers. The manufacturing industry is no exception. On-demand manufacturing is a transformative approach that caters to the modern manufacturing demand for speed, flexibility, and precision. By enabling faster production cycles and unparalleled customization, on-demand manufacturing has become the go-to solution for turning innovative ideas into tangible results.",
     "subtitle": "Many companies across industries are using on-demand manufacturing to realize their design visions:",
@@ -49,6 +57,103 @@
     "on_demand_manufacturing_text": "On-demand manufacturing is a game-changer for businesses, combining speed, flexibility, and cost-efficiency in ways traditional methods cannot. Here's why it matters:",
     "product_development_journey": "When it comes to the product development journey, the differences between traditional manufacturing and on-demand manufacturing are clearly highlighted in the chart below, showcasing the distinct advantages and challenges of each approach.",
     "on_demand_vs_traditional": "On-Demand Manufacturing vs. Traditional Manufacturing",
-    "on_demand_vs_traditional_text": "Did you know that traditional manufacturing can cost companies millions every year due to inefficiencies? High upfront investments, long production timelines, and rigid processes can stifle innovation and slow progress. On-demand manufacturing changes the game by eliminating unnecessary overhead, enabling businesses to prioritize creativity and market responsiveness. Whether you're an established industry leader or a dynamic startup, on-demand manufacturing offers faster production cycles, greater customization, and significant cost savings. Please find the chart below with traditional manufacturing versus on-demand manufacturing:"
+    "on_demand_vs_traditional_text": "Did you know that traditional manufacturing can cost companies millions every year due to inefficiencies? High upfront investments, long production timelines, and rigid processes can stifle innovation and slow progress. On-demand manufacturing changes the game by eliminating unnecessary overhead, enabling businesses to prioritize creativity and market responsiveness. Whether you're an established industry leader or a dynamic startup, on-demand manufacturing offers faster production cycles, greater customization, and significant cost savings. Please find the chart below with traditional manufacturing versus on-demand manufacturing:",
+    "on_demand_manufacturing_text_first_title": "1. Flexibility and Personalization",
+    "on_demand_manufacturing_text_first_text": "On-demand manufacturing enables businesses to produce exactly what is needed, precisely when it's needed. This is especially beneficial for:",
+    "on_demand_manufacturing_text_first_list": [
+      "Prototyping and product testing",
+      "Low-volume production runs",
+      "Highly customized or specialty parts"
+    ],
+    "on_demand_manufacturing_text_first_list_item_1": "Prototyping and product testing",
+    "on_demand_manufacturing_text_first_list_item_2": "Low-volume production runs",
+    "on_demand_manufacturing_text_first_list_item_3": "Highly customized or specialty parts",
+    "on_demand_manufacturing_text_first_text_2": "For instance, in the medical sector—where precision and personalization are critical—on-demand manufacturing allows for the rapid production of tailored components for advanced medical devices.",
+    "on_demand_manufacturing_text_second_title": "2. Faster Turnaround Times",
+    "on_demand_manufacturing_text_second_text": "Time waits for no one, especially in industries where innovation drives competition. On-demand manufacturing's streamlined workflows and advanced technologies slash production timelines, enabling businesses to move from design to delivery in record time.",
+    "on_demand_manufacturing_text_second_text_2": "This rapid turnaround can be extremely beneficial for industries like automotive and consumer electronics, where staying ahead of trends can make or break a product's success. The ability to quickly iterate and refine designs ensures companies remain at the forefront of their markets.",
+    "on_demand_manufacturing_text_third_title": "3. Cost Efficiency & Resource Optimization",
+    "on_demand_manufacturing_text_third_text": "Traditional manufacturing relies on bulk production, leading to higher costs, excess inventory, and logistical inefficiencies. On-demand manufacturing eliminates these issues by:",
+    "on_demand_manufacturing_text_third_list": [
+      "Lowering storage and inventory costs",
+      "Allowing smaller businesses to access high-quality manufacturing without massive investments"
+    ],
+    "on_demand_manufacturing_text_third_list_item_1": "Lowering storage and inventory costs",
+    "on_demand_manufacturing_text_third_list_item_2": "Allowing smaller businesses to access high-quality manufacturing without massive investments",
+    "on_demand_manufacturing_text_fourth_title": "4. Innovation at Its Core",
+    "on_demand_manufacturing_text_fourth_text": "With lower production barriers, startups, inventors, and established businesses can experiment with new ideas and iterate rapidly. Recent years have shown how on-demand manufacturing drives groundbreaking advancements, such as:",
+    "on_demand_manufacturing_text_fourth_list": [
+      "Next-gen scientific instruments – Agile development of cutting-edge laboratory equipment",
+      "Smart home technology – Fast-tracking new devices for modern living"
+    ],
+    "on_demand_manufacturing_text_fourth_list_item_1": "Next-gen scientific instruments – Agile development of cutting-edge laboratory equipment",
+    "on_demand_manufacturing_text_fourth_list_item_2": "Smart home technology – Fast-tracking new devices for modern living",
+    "on_demand_manufacturing_text_fifth_title": "RPWORLD is Your Reliable Partner for On-demand Manufacturing",
+    "on_demand_manufacturing_text_fifth_text": "At RPWORLD, we are passionate about delivering on-demand manufacturing solutions that combine speed, flexibility, and precision. Whether you need low-volume parts, or full production runs, our expertise ensures high-quality results with fast turnaround times.",
+    "on_demand_manufacturing_text_sixth_title": "RPWORLD is Your Reliable Partner for On-demand Manufacturing",
+    "on_demand_manufacturing_text_sixth_text": "At RPWORLD, we are passionate about delivering on-demand manufacturing solutions that combine speed, flexibility, and precision. Whether you need low-volume parts, or full production runs, our expertise ensures high-quality results with fast turnaround times.",
+    "on_demand_manufacturing_text_seventh_title": "Why Choose RPWORLD for On-demand Manufacturing?",
+    "on_demand_manufacturing_text_seventh_list": [
+      "20+ years of industry experience",
+      "Cutting-edge CNC machining, injection molding, sheet metal fabrication, full suite of finishing options"
+    ],
+    "on_demand_manufacturing_text_seventh_list_item_1": "20+ years of industry experience",
+    "on_demand_manufacturing_text_seventh_list_item_2": "Cutting-edge CNC machining, injection molding, sheet metal fabrication, full suite of finishing options",
+    "on_demand_manufacturing_text_seventh_list_item_3": "Trusted by leaders in medical, automotive, and technology industries",
+    "on_demand_manufacturing_text_seventh_list_item_4": "Seamless production processes to bring your ideas to life",
+    "on_demand_manufacturing_text_eighth_text": "Ready to revolutionize your manufacturing approach? Let's build something amazing together. Contact us today to discuss your next project!",
+    "feature": "Feature",
+    "traditional_manufacturing": "Traditional Manufacturing",
+    "on_demand_manufacturing_table": "On-Demand Manufacturing",
+    "weeks": "weeks",
+    "rapid_prototyping": "Rapid Prototyping",
+    "rapid_tooling": "Rapid Tooling",
+    "production_tooling": "Production Tooling",
+    "time_to_market": "Time to Market",
+    "upfront_costs": "Upfront Costs", 
+    "low_volume_production": "Low Volume Production",
+    "highly_customized_or_specialty_parts": "Highly Customized or Specialty Parts",
+    "comparing_development_timelines": "Comparing Development Timelines:",
+    "on_demand_manufacturing_vs_traditional_manufacturing": "On-Demand Manufacturing vs. Traditional Manufacturing",
+    "cnc_machining": "CNC Machining",
+    "vacuum_casting": "Vacuum Casting",
+    "three_d_printing": "3D Printing",
+    "injection_molding": "Injection Molding",
+    "aluminum_tooling": "Aluminum Tooling",
+    "production_runs": "Production Runs",
+    "low_volume_production_runs": "Low Volume Production Runs",
+    "high_volume_production_runs": "High Volume Production Runs",
+    "customized_or_specialty_parts": "Customized or Specialty Parts",
+    "innovation_and_experimentation": "Innovation and Experimentation",
+    "cost_efficiency": "Cost Efficiency",
+    "resource_optimization": "Resource Optimization",
+    "production_barriers": "Production Barriers",
+    "startup_inventors_established_businesses": "Startup, Inventors, Established Businesses",
+    "recent_years": "Recent Years",
+    "groundbreaking_advancements": "Groundbreaking Advancements",
+    "on_demand_manufacturing_drives_groundbreaking_advancements": "On-Demand Manufacturing Drives Groundbreaking Advancements",
+    "on_demand_manufacturing_drives_groundbreaking_advancements_text": "Recent years have shown how on-demand manufacturing drives groundbreaking advancements, such as:",
+    "on_demand_manufacturing_drives_groundbreaking_advancements_list": [
+      "Next-gen scientific instruments – Agile development of cutting-edge laboratory equipment",
+      "Smart home technology – Fast-tracking new devices for modern living"
+    ],
+    "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_1": "Next-gen scientific instruments – Agile development of cutting-edge laboratory equipment",
+    "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_2": "Smart home technology – Fast-tracking new devices for modern living",
+    "on_demand_manufacturing_timeline": "On-Demand Manufacturing Timeline",
+    "on_demand_manufacturing_text_third_list_item_3": "Next-gen scientific instruments - Agile development of cutting-edge laboratory equipment",
+    "on_demand_manufacturing_text_third_list_item_3_list": [
+      "Flexibility and Personalization",
+      "Faster Turnaround Times",
+      "Cost Efficiency & Resource Optimization",
+      "Innovation at Its Core"
+    ],
+    "on_demand_manufacturing_text_fourth_list_item_3": "Next-gen scientific instruments - Agile development of cutting-edge laboratory equipment",
+    "on_demand_manufacturing_text_fourth_list_item_3_list": [
+      "Flexibility and Personalization",
+      "Faster Turnaround Times",
+      "Cost Efficiency & Resource Optimization",
+      "Innovation at Its Core"
+    ],
+    "stop_developing": "Stop Developing"
   }
 }

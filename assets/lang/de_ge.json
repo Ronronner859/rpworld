@@ -1,19 +1,19 @@
 {
     "rp-world": {
-        "title": "High Mix Low Volume Manufacturing | Automotive Prototyping - RPWORLD",
-        "description": "RP World is a leading provider of high mix low volume manufacturing and automotive prototyping services. We offer a wide range of services to meet your manufacturing needs, from prototype development to production.",
-        "ogDescription": "RP World is a leading provider of high mix low volume manufacturing and automotive prototyping services. We offer a wide range of services to meet your manufacturing needs, from prototype development to production.",
-        "ogTitle": "High Mix Low Volume Manufacturing | Automotive Prototyping - RPWORLD"
+        "title": "High Mix Low Volume Fertigung | Automobil-Prototypen - RPWORLD",
+        "description": "RP World ist ein führender Anbieter von High-Mix-Low-Volume-Fertigung und Automobil-Prototypen-Dienstleistungen. Wir bieten eine Vielzahl von Dienstleistungen, die Ihre Fertigungsbedürfnisse abdecken, von der Prototypenentwicklung bis hin zur Produktion.",
+        "ogDescription": "RP World ist ein führender Anbieter von High-Mix-Low-Volume-Fertigung und Automobil-Prototypen-Dienstleistungen. Wir bieten eine Vielzahl von Dienstleistungen, die Ihre Fertigungsbedürfnisse abdecken, von der Prototypenentwicklung bis hin zur Produktion.",
+        "ogTitle": "High Mix Low Volume Fertigung | Automobil-Prototypen - RPWORLD"
     },
     "rp-header": {
-        "title": "ERHALTEN SIE EINEN ZEITLOHN",
+        "title": "HOLEN SIE SICH EIN ANGEBOT",
         "menu": [
             {
                 "name": "STARTSEITE",
                 "path": "/"
             },
             {
-                "name": "DIENSTE",
+                "name": "DIENSTLEISTUNGEN",
                 "path": "/services"
             },
             {
@@ -21,11 +21,11 @@
                 "path": "/materials"
             },
             {
-                "name": "Ressourcen",
+                "name": "RESSOURCEN",
                 "path": "/resources"
             },
             {
-                "name": "NEWS",
+                "name": "NEUIGKEITEN",
                 "path": "/news"
             },
             {
@@ -34,14 +34,126 @@
             }
         ]
     },
+    "rp-footer": {
+        "tags": "Tags:",
+        "on-demand-manufacturing": "On-Demand-Fertigung",
+        "precision-manufacturing": "Präzisionsfertigung",
+        "injection-molding": "Spritzguss",
+        "cnc-machining": "CNC-Bearbeitung",
+        "esg-practices": "ESG-Praktiken"
+    },
     "rp-center-text": {
-        "grocery_shopping_text": "From grocery shopping to hailing taxis, businesses across industries—healthcare, education, banking, and e-commerce—are shifting toward flexible and tailored solutions that meet the unique needs of customers. The manufacturing industry is no exception. On-demand manufacturing is a transformative approach that caters to the modern manufacturing demand for speed, flexibility, and precision. By enabling faster production cycles and unparalleled customization, on-demand manufacturing has become the go-to solution for turning innovative ideas into tangible results.",
-        "subtitle": "Many companies across industries are using on-demand manufacturing to realize their design visions:",
-        "medical_devices": "Medical Devices",
-        "medical_devices_text": "A fast-growing European ophthalmic device company used Urethane Casting to develop a cutting-edge diagnostic tool, slashing develop­ment time by 50% and reduce costs by 30%.",
-        "scientific_instruments": "Scientific Instruments",
-        "scientific_instruments_text": "A leading biotech research company used on-de­mand manufacturing to develop an innovative spectrometer, accelerating its development cycle by 40%.",
-        "automotive": "Automotive",
-        "title_fabrication": "Fabrication à la demande vs. fabrication traditionnelle"
+        "grocery_shopping_text": "Von Lebensmitteleinkäufen bis zum Taxi rufen, Unternehmen aus allen Branchen – Gesundheitswesen, Bildung, Bankenwesen und E-Commerce – setzen zunehmend auf flexible und maßgeschneiderte Lösungen, die den einzigartigen Bedürfnissen der Kunden gerecht werden. Die Fertigungsindustrie bildet da keine Ausnahme. On-Demand-Fertigung ist ein transformativer Ansatz, der der modernen Fertigungsanforderung nach Geschwindigkeit, Flexibilität und Präzision gerecht wird. Durch schnellere Produktionszyklen und unvergleichliche Anpassungsfähigkeit ist On-Demand-Fertigung zur bevorzugten Lösung geworden, um innovative Ideen in greifbare Ergebnisse umzusetzen.",
+        "subtitle": "Viele Unternehmen aus verschiedenen Branchen nutzen On-Demand-Fertigung, um ihre Designvisionen zu verwirklichen:",
+        "medical_devices": "Medizinische Geräte",
+        "medical_devices_text": "Ein schnell wachsendes europäisches Unternehmen für ophthalmische Geräte nutzte Urethan-Gießen, um ein bahnbrechendes Diagnosewerkzeug zu entwickeln, die Entwicklungszeit um 50 % zu verkürzen und die Kosten um 30 % zu senken.",
+        "scientific_instruments": "Wissenschaftliche Instrumente",
+        "scientific_instruments_text": "Ein führendes Biotech-Forschungsunternehmen nutzte On-Demand-Fertigung, um ein innovatives Spektrometer zu entwickeln und die Entwicklungszeit um 40 % zu beschleunigen.",
+        "automotive": "Automobilindustrie",
+        "automotive_text": "Automobilhersteller integrieren Niedrigvolumenproduktion und Rapid Prototyping, um Designiterationen zu optimieren und die Zeit von der Idee zum Test um mehr als 60 % zu verkürzen.",
+        "title_fabrication": "On-Demand-Fertigung vs. traditionelle Fertigung",
+        "title_fabrication_text": "Wussten Sie, dass traditionelle Fertigung Unternehmen jedes Jahr Millionen kosten kann, aufgrund von Ineffizienzen? Hohe Anfangsinvestitionen, lange Produktionszeiten und starre Prozesse können Innovationen behindern und den Fortschritt verlangsamen. On-Demand-Fertigung verändert das Spiel, indem sie unnötige Overheads eliminiert und es Unternehmen ermöglicht, Kreativität und Marktreaktionsfähigkeit in den Vordergrund zu stellen. Egal, ob Sie ein etabliertes Unternehmen oder ein dynamisches Startup sind, On-Demand-Fertigung bietet schnellere Produktionszyklen, größere Anpassungsfähigkeit und erhebliche Kostensenkungen. Unten finden Sie die Tabelle, die traditionelle Fertigung im Vergleich zur On-Demand-Fertigung zeigt:",
+        "on_demand_manufacturing": "Warum wir On-Demand-Fertigung lieben",
+        "on_demand_manufacturing_text": "On-Demand-Fertigung ist ein Game-Changer für Unternehmen, da sie Geschwindigkeit, Flexibilität und Kosten-effizienz kombiniert, wie traditionelle Methoden es nicht können. Hier erfahren Sie warum es wichtig ist:",
+        "product_development_journey": "Im Hinblick auf die Produktentwicklung werden die Unterschiede zwischen traditioneller Fertigung und On-Demand-Fertigung deutlich hervorgehoben, da jede Methode ihre eigenen Vorteile und Herausforderungen mit sich bringt.",
+        "on_demand_vs_traditional": "On-Demand-Fertigung vs. Traditionelle Fertigung",
+        "on_demand_vs_traditional_text": "Wussten Sie, dass traditionelle Fertigung Unternehmen jedes Jahr Millionen kosten kann, aufgrund von Ineffizienzen? Hohe Anfangsinvestitionen, lange Produktionszeiten und starre Prozesse können Innovationen behindern und den Fortschritt verlangsamen. On-Demand-Fertigung verändert das Spiel, indem sie unnötige Overheads eliminiert und es Unternehmen ermöglicht, Kreativität und Marktreaktionsfähigkeit in den Vordergrund zu stellen. Egal, ob Sie ein etabliertes Unternehmen oder ein dynamisches Startup sind, On-Demand-Fertigung bietet schnellere Produktionszyklen, größere Anpassungsfähigkeit und erhebliche Kostensenkungen. Unten finden Sie die Tabelle, die traditionelle Fertigung im Vergleich zur On-Demand-Fertigung zeigt:",
+        "on_demand_manufacturing_text_first_title": "1. Flexibilität und Personalisierung",
+        "on_demand_manufacturing_text_first_text": "On-Demand-Fertigung ermöglicht es Unternehmen, genau das zu produzieren, was benötigt wird, genau dann, wenn es benötigt wird. Dies ist besonders vorteilhaft für:",
+        "on_demand_manufacturing_text_first_list": [
+            "Prototyping und Produkttests",
+            "Niedrigvolumenproduktion",
+            "Hochgradig angepasste oder Spezialteile"
+        ],
+        "on_demand_manufacturing_text_first_list_item_1": "Prototyping und Produkttests",
+        "on_demand_manufacturing_text_first_list_item_2": "Niedrigvolumenproduktion",
+        "on_demand_manufacturing_text_first_list_item_3": "Hochgradig angepasste oder Spezialteile",
+        "on_demand_manufacturing_text_first_text_2": "Zum Beispiel im medizinischen Sektor—wo Präzision und Personalisierung entscheidend sind—ermöglicht On-Demand-Fertigung die schnelle Produktion maßgeschneiderter Komponenten für fortschrittliche medizinische Geräte.",
+        "on_demand_manufacturing_text_second_title": "2. Schnellere Durchlaufzeiten",
+        "on_demand_manufacturing_text_second_text": "Zeit wartet auf niemanden, besonders in Branchen, in denen Innovation den Wettbewerb bestimmt. Die optimierten Arbeitsabläufe und fortschrittlichen Technologien der On-Demand-Fertigung verkürzen die Produktionszeiten und ermöglichen es Unternehmen, in Rekordzeit von der Entwurfs- zur Lieferung.",
+        "on_demand_manufacturing_text_second_text_2": "Diese schnelle Durchlaufzeit kann besonders vorteilhaft für Branchen wie die Automobilindustrie und Elektronik sein, in denen es darauf ankommt, mit den Trends Schritt zu halten, um den Erfolg eines Produkts zu gewährleisten. Die Fähigkeit, Designs schnell zu iterieren und zu verfeinern, stellt sicher, dass Unternehmen an der Spitze ihrer Märkte bleiben.",
+        "on_demand_manufacturing_text_third_title": "3. Kosteneffizienz & Ressourcennutzung",
+        "on_demand_manufacturing_text_third_text": "Traditionelle Fertigung setzt auf Massenproduktion, was zu höheren Kosten, Überschussbeständen und logistischen Ineffizienzen führt. On-Demand-Fertigung beseitigt diese Probleme, indem sie:",
+        "on_demand_manufacturing_text_third_list": [
+            "Lager- und Bestandskosten senken",
+            "Kleinere Unternehmen Zugang zu hochwertiger Fertigung ohne massive Investitionen ermöglichen"
+        ],
+        "on_demand_manufacturing_text_third_list_item_1": "Lager- und Bestandskosten senken",
+        "on_demand_manufacturing_text_third_list_item_2": "Kleinere Unternehmen Zugang zu hochwertiger Fertigung ohne massive Investitionen ermöglichen",
+        "on_demand_manufacturing_text_fourth_title": "4. Innovation im Kern",
+        "on_demand_manufacturing_text_fourth_text": "Mit niedrigeren Produktionsbarrieren können Startups, Erfinder und etablierte Unternehmen neue Ideen ausprobieren und schnell iterieren. In den letzten Jahren hat die On-Demand-Fertigung bahnbrechende Fortschritte ermöglicht, wie zum Beispiel:",
+        "on_demand_manufacturing_text_fourth_list": [
+            "Next-gen wissenschaftliche Instrumente – Agile Entwicklung von bahnbrechenden Laborgeräten",
+            "Smart Home-Technologie – Beschleunigung neuer Geräte für modernes Wohnen"
+        ],
+        "on_demand_manufacturing_text_fourth_list_item_1": "Next-gen wissenschaftliche Instrumente – Agile Entwicklung von bahnbrechenden Laborgeräten",
+        "on_demand_manufacturing_text_fourth_list_item_2": "Smart Home-Technologie – Beschleunigung neuer Geräte für modernes Wohnen",
+        "on_demand_manufacturing_text_fifth_title": "RPWORLD ist Ihr zuverlässiger Partner für On-Demand-Fertigung",
+        "on_demand_manufacturing_text_fifth_text": "Bei RPWORLD sind wir leidenschaftlich darin, On-Demand-Fertigungs-lösungen zu liefern, die Geschwindigkeit, Flexibilität und Präzision vereinen. Egal, ob Sie Teile in kleinen Stückzahlen oder vollständige Produktionsläufe benötigen, unsere Expertise sorgt für hochwertige Ergebnisse mit schnellen Durchlaufzeiten.",
+        "on_demand_manufacturing_text_sixth_title": "RPWORLD ist Ihr zuverlässiger Partner für On-Demand-Fertigung",
+        "on_demand_manufacturing_text_sixth_text": "Bei RPWORLD sind wir leidenschaftlich darin, On-Demand-Fertigungs-lösungen zu liefern, die Geschwindigkeit, Flexibilität und Präzision vereinen. Egal, ob Sie Teile in kleinen Stückzahlen oder vollständige Produktionsläufe benötigen, unsere Expertise sorgt für hochwertige Ergebnisse mit schnellen Durchlaufzeiten.",
+        "on_demand_manufacturing_text_seventh_title": "Warum RPWORLD für On-Demand-Fertigung wählen?",
+        "on_demand_manufacturing_text_seventh_list": [
+            "Über 20 Jahre Branchenerfahrung",
+            "Fortschrittliche CNC-Bearbeitung, Spritzguss, Blechbearbeitung, vollständige Palette an Veredelungsoptionen"
+        ],
+        "on_demand_manufacturing_text_seventh_list_item_1": "Über 20 Jahre Branchenerfahrung",
+        "on_demand_manufacturing_text_seventh_list_item_2": "Fortschrittliche CNC-Bearbeitung, Spritzguss, Blechbearbeitung, vollständige Palette an Veredelungsoptionen",
+        "on_demand_manufacturing_text_seventh_list_item_3": "Vertraut von führenden Unternehmen in den Bereichen Medizin, Automobil und Technologie",
+        "on_demand_manufacturing_text_seventh_list_item_4": "Nahtlose Produktionsprozesse, um Ihre Ideen zum Leben zu erwecken",
+        "on_demand_manufacturing_text_eighth_text": "Bereit, Ihre Fertigungsstrategie zu revolutionieren? Lassen Sie uns gemeinsam etwas Großartiges bauen. Kontaktieren Sie uns noch heute, um Ihr nächstes Projekt zu besprechen!",
+        "feature": "Merkmal",
+        "traditional_manufacturing": "Traditionelle Fertigung",
+        "on_demand_manufacturing_table": "On-Demand-Fertigung",
+        "weeks": "Wochen",
+        "rapid_prototyping": "Schnelle",
+        "rapid_tooling": "Schnelle",
+        "production_tooling": "Produktionswerkzeuge",
+        "time_to_market": "Markteinführungszeit",
+        "upfront_costs": "Vorabkosten",
+        "low_volume_production": "Kleinserienproduktion",
+        "highly_customized_or_specialty_parts": "Hochgradig kundenspezifische oder Spezialteile",
+        "comparing_development_timelines": "Vergleich der Entwicklungszeitpläne:",
+        "on_demand_manufacturing_vs_traditional_manufacturing": "On-Demand-Fertigung vs. traditionelle Fertigung",
+        "cnc_machining": "CNC-Bearbeitung",
+        "vacuum_casting": "Vakuumguss",
+        "three_d_printing": "3D-Druck",
+        "injection_molding": "Spritzguss",
+        "aluminum_tooling": "Aluminiumwerkzeuge",
+        "production_runs": "Produktionsläufe",
+        "low_volume_production_runs": "Kleinserienproduktionsläufe",
+        "high_volume_production_runs": "Großserienproduktionsläufe",
+        "customized_or_specialty_parts": "Kundenspezifische oder Spezialteile",
+        "innovation_and_experimentation": "Innovation und Experimentierung",
+        "cost_efficiency": "Kosten-effizienz",
+        "resource_optimization": "Ressourcenoptimierung",
+        "production_barriers": "Produktionsbarrieren",
+        "startup_inventors_established_businesses": "Startups, Erfinder, etablierte Unternehmen",
+        "recent_years": "In den letzten Jahren",
+        "groundbreaking_advancements": "Bahnbrechende Fortschritte",
+        "on_demand_manufacturing_drives_groundbreaking_advancements": "On-Demand-Fertigung treibt bahnbrechende Fortschritte voran",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_text": "In den letzten Jahren hat sich gezeigt, wie On-Demand-Fertigung bahnbrechende Fortschritte vorantreibt, wie z.B.:",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list": [
+            "Next-Gen wissenschaftliche Instrumente – Agile Entwicklung von hochmodernen Laborgeräten",
+            "Smart Home Technologie – Schnellere Entwicklung neuer Geräte für modernes Wohnen"
+        ],
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_1": "Next-Gen wissenschaftliche Instrumente – Agile Entwicklung von hochmodernen Laborgeräten",
+        "on_demand_manufacturing_drives_groundbreaking_advancements_list_item_2": "Smart Home Technologie – Schnellere Entwicklung neuer Geräte für modernes Wohnen",
+        "on_demand_manufacturing_timeline": "On-Demand-Fertigungszeitplan",
+        "on_demand_manufacturing_text_third_list_item_3": "Next-Gen wissenschaftliche Instrumente - Agile Entwicklung von hochmodernen Laborgeräten",
+        "on_demand_manufacturing_text_third_list_item_3_list": [
+            "Flexibilität und Personalisierung",
+            "Schnellere Durchlaufzeiten",
+            "Kosten-effizienz und Ressourcenoptimierung",
+            "Innovation als Kern"
+        ],
+        "on_demand_manufacturing_text_fourth_list_item_3": "Next-Gen wissenschaftliche Instrumente - Agile Entwicklung von hochmodernen Laborgeräten",
+        "on_demand_manufacturing_text_fourth_list_item_3_list": [
+            "Flexibilität und Personalisierung",
+            "Schnellere Durchlaufzeiten",
+            "Kosten-effizienz und Ressourcenoptimierung",
+            "Innovation als Kern"
+        ],
+        "stop_developing": "Entwicklung stoppen"
     }
 }
