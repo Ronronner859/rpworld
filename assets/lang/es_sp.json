@@ -1,0 +1,47 @@
+{
+    "rp-world": {
+        "title": "Fabricación a la demanda vs. fabricación tradicional",
+        "description": "Fabricación a la demanda vs. fabricación tradicional",
+        "ogDescription": "Fabricación a la demanda vs. fabricación tradicional",
+        "ogTitle": "Fabricación a la demanda vs. fabricación tradicional"
+    },
+    "rp-header": {
+        "title": "OBTENER UN PRECIO",
+        "menu": [
+            {
+                "name": "INICIO",
+                "path": "/"
+            },
+            {
+                "name": "SERVICIOS",
+                "path": "/services"
+            },  
+            {
+                "name": "MATERIALES",
+                "path": "/materials"
+            },
+            {
+                "name": "RECURSOS",
+                "path": "/resources"
+            },
+            {
+                "name": "NOTICIAS",
+                "path": "/news"
+            },
+            {
+                "name": "SOBRE NOSOTROS",
+                "path": "/about"
+            }
+        ]
+    },
+    "rp-center-text": {
+        "titgrocery_shopping_textsle": "From grocery shopping to hailing taxis, businesses across industries—healthcare, education, banking, and e-commerce—are shifting toward flexible and tailored solutions that meet the unique needs of customers. The manufacturing industry is no exception. On-demand manufacturing is a transformative approach that caters to the modern manufacturing demand for speed, flexibility, and precision. By enabling faster production cycles and unparalleled customization, on-demand manufacturing has become the go-to solution for turning innovative ideas into tangible results.",
+        "subtitle": "Many companies across industries are using on-demand manufacturing to realize their design visions:",
+        "medical_devices": "Medical Devices",
+        "medical_devices_text": "A fast-growing European ophthalmic device company used Urethane Casting to develop a cutting-edge diagnostic tool, slashing develop­ment time by 50% and reduce costs by 30%.",
+        "scientific_instruments": "Scientific Instruments",
+        "scientific_instruments_text": "A leading biotech research company used on-de­mand manufacturing to develop an innovative spectrometer, accelerating its development cycle by 40%.",
+        "automotive": "Automotive",
+        "title_fabrication": "Fabricación a la demanda vs. fabricación tradicional"
+    }
+}

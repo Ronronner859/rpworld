@@ -1,0 +1,54 @@
+{
+  "rp-world": {
+    "title": "High Mix Low Volume Manufacturing | Automotive Prototyping - RPWORLD",
+    "description": "RP World is a leading provider of high mix low volume manufacturing and automotive prototyping services. We offer a wide range of services to meet your manufacturing needs, from prototype development to production.",
+    "ogDescription": "RP World is a leading provider of high mix low volume manufacturing and automotive prototyping services. We offer a wide range of services to meet your manufacturing needs, from prototype development to production.",
+    "ogTitle": "High Mix Low Volume Manufacturing | Automotive Prototyping - RPWORLD"
+  },
+  "rp-header": {
+    "title": "GET A QUOTE",
+    "menu": [
+      {
+        "name": "HOME",
+        "path": "/"
+      },
+      {
+        "name": "SERVICES",
+        "path": "/services"
+      },
+      {
+        "name": "MATERIALS",
+        "path": "/materials"
+      },
+      {
+        "name": "RESOURCES",
+        "path": "/resources"
+      },
+      {
+        "name": "NEWS",
+        "path": "/news"
+      },
+      {
+        "name": "ABOUT US",
+        "path": "/about"
+      } 
+    ]
+  },
+  "rp-center-text": {
+    "grocery_shopping_text": "From grocery shopping to hailing taxis, businesses across industries—healthcare, education, banking, and e-commerce—are shifting toward flexible and tailored solutions that meet the unique needs of customers. The manufacturing industry is no exception. On-demand manufacturing is a transformative approach that caters to the modern manufacturing demand for speed, flexibility, and precision. By enabling faster production cycles and unparalleled customization, on-demand manufacturing has become the go-to solution for turning innovative ideas into tangible results.",
+    "subtitle": "Many companies across industries are using on-demand manufacturing to realize their design visions:",
+    "medical_devices": "Medical Devices",
+    "medical_devices_text": "A fast-growing European ophthalmic device company used Urethane Casting to develop a cutting-edge diagnostic tool, slashing develop­ment time by 50% and reduce costs by 30%.",
+    "scientific_instruments": "Scientific Instruments",
+    "scientific_instruments_text": "A leading biotech research company used on-de­mand manufacturing to develop an innovative spectrometer, accelerating its development cycle by 40%.",
+    "automotive": "Automotive",
+    "automotive_text": "Automakers are integrating low-volume production and rapid prototyping to streamline design iterations, reducing the time from concept to testing by over 60%.",
+    "title_fabrication": "Fabrication à la demande vs. fabrication traditionnelle",
+    "title_fabrication_text": "Did you know that traditional manufacturing can cost companies millions every year due to inefficiencies? High upfront investments, long production timelines, and rigid processes can stifle innovation and slow progress. On-demand manufacturing changes the game by eliminating unnecessary overhead, enabling businesses to prioritize creativity and market responsiveness. Whether you're an established industry leader or a dynamic startup, on-demand manufacturing offers faster production cycles, greater customization, and significant cost savings. Please find the chart below with traditional manufacturing versus on-demand manufacturing:",
+    "on_demand_manufacturing": "Why We Love On-Demand Manufacturing",
+    "on_demand_manufacturing_text": "On-demand manufacturing is a game-changer for businesses, combining speed, flexibility, and cost-efficiency in ways traditional methods cannot. Here's why it matters:",
+    "product_development_journey": "When it comes to the product development journey, the differences between traditional manufacturing and on-demand manufacturing are clearly highlighted in the chart below, showcasing the distinct advantages and challenges of each approach.",
+    "on_demand_vs_traditional": "On-Demand Manufacturing vs. Traditional Manufacturing",
+    "on_demand_vs_traditional_text": "Did you know that traditional manufacturing can cost companies millions every year due to inefficiencies? High upfront investments, long production timelines, and rigid processes can stifle innovation and slow progress. On-demand manufacturing changes the game by eliminating unnecessary overhead, enabling businesses to prioritize creativity and market responsiveness. Whether you're an established industry leader or a dynamic startup, on-demand manufacturing offers faster production cycles, greater customization, and significant cost savings. Please find the chart below with traditional manufacturing versus on-demand manufacturing:"
+  }
+}

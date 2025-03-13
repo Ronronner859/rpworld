@@ -1,0 +1,47 @@
+{
+    "rp-world": {
+        "title": "High Mix Low Volume Manufacturing | Automotive Prototyping - RPWORLD",
+        "description": "RP World is a leading provider of high mix low volume manufacturing and automotive prototyping services. We offer a wide range of services to meet your manufacturing needs, from prototype development to production.",
+        "ogDescription": "RP World is a leading provider of high mix low volume manufacturing and automotive prototyping services. We offer a wide range of services to meet your manufacturing needs, from prototype development to production.",
+        "ogTitle": "High Mix Low Volume Manufacturing | Automotive Prototyping - RPWORLD"
+    },
+    "rp-header": {
+        "title": "ERHALTEN SIE EINEN ZEITLOHN",
+        "menu": [
+            {
+                "name": "STARTSEITE",
+                "path": "/"
+            },
+            {
+                "name": "DIENSTE",
+                "path": "/services"
+            },
+            {
+                "name": "MATERIALIEN",
+                "path": "/materials"
+            },
+            {
+                "name": "Ressourcen",
+                "path": "/resources"
+            },
+            {
+                "name": "NEWS",
+                "path": "/news"
+            },
+            {
+                "name": "ÜBER UNS",
+                "path": "/about"
+            }
+        ]
+    },
+    "rp-center-text": {
+        "grocery_shopping_text": "From grocery shopping to hailing taxis, businesses across industries—healthcare, education, banking, and e-commerce—are shifting toward flexible and tailored solutions that meet the unique needs of customers. The manufacturing industry is no exception. On-demand manufacturing is a transformative approach that caters to the modern manufacturing demand for speed, flexibility, and precision. By enabling faster production cycles and unparalleled customization, on-demand manufacturing has become the go-to solution for turning innovative ideas into tangible results.",
+        "subtitle": "Many companies across industries are using on-demand manufacturing to realize their design visions:",
+        "medical_devices": "Medical Devices",
+        "medical_devices_text": "A fast-growing European ophthalmic device company used Urethane Casting to develop a cutting-edge diagnostic tool, slashing develop­ment time by 50% and reduce costs by 30%.",
+        "scientific_instruments": "Scientific Instruments",
+        "scientific_instruments_text": "A leading biotech research company used on-de­mand manufacturing to develop an innovative spectrometer, accelerating its development cycle by 40%.",
+        "automotive": "Automotive",
+        "title_fabrication": "Fabrication à la demande vs. fabrication traditionnelle"
+    }
+}
