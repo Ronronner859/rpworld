@@ -184,7 +184,7 @@ const toggleMobileMenu = () => {
   <div class="h-20"></div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 .container {
   max-width: 1100px;
 }

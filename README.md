@@ -1,8 +1,16 @@
-# rpworld-site 项目开发文档
+# 项目一开发文档
 
-## 项目简介
+## 项目简介 
 
-本项目基于 Nuxt.js 3 开发，使用 Vue 3 进行前端渲染，并集成了 Vuetify 作为 UI 组件库。此外，项目支持国际化（i18n），使用 Tailwind CSS 进行样式管理，并采用 `pnpm` 作为包管理工具。项目进行了多项优化，以提高网站的响应速度和适配能力，确保页面响应速度在 **70ms 以内**。
+本项目基于 Nuxt.js 3 开发，使用 Vue 3 进行前端渲染，并集成了 Vuetify 作为 UI 组件库。此外，项目支持国际化（i18n），使用 Tailwind CSS 进行样式管理，并采用 `pnpm` 作为包管理工具。项目进行了多项优化，以提高网站的响应速度和适配能力，确保页面响应速度在 **100ms 以内**。
+
+![image-20250313221238308](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313221238308.png)
+
+>## 为什么采用这些技术？
+>
+>​	相比原生开发，Nuxt.js 提供开箱即用的 SSR 和 SSG，提高开发效率，减少手动配置。基于 Vue 3 的组件化开发，使代码组织更加清晰，逻辑复用性强。同时，SSR 渲染优化了搜索引擎收录，提高 SEO 效果。此外，Pinia 取代 Vuex，使状态管理更加直观。
+>
+>​	相比 Bootstrap，Nuxt.js 结合 Vuetify 提供了更现代化的 UI 设计，支持 Material Design，适配度更高。同时，Tailwind CSS 、Unocss允许按需引入样式，比 Bootstrap 更轻量化。此外，Vue 组件化开发方式比传统 Bootstrap class 方式更加可维护，提高了代码复用性。
 
 ## 目录结构
 
@@ -78,6 +86,12 @@ pnpm generate
 pnpm preview
 ```
 
+### 项目部署
+
+通过 Vercel 自动化部署项目
+
+>Vercel 是一个针对前端开发的云平台，特别适合部署静态网站和前端应用。提供了自动化部署、全局 CDN 加速、服务器端渲染（SSR）等功能，简化了前端应用的部署流程。
+
 ## 主要功能
 
 ### 1. 国际化支持（i18n）
@@ -95,7 +109,7 @@ export default defineNuxtConfig({
     vueI18n: {
       messages: {
         en: {
-          welcome: 'Welcome to our app!'
+          welcome: 'Welcome to our rpworld!'
         },
         zh: {
           welcome: '欢迎使用我们的应用！'
@@ -105,6 +119,14 @@ export default defineNuxtConfig({
   }
 });
 ```
+
+![image-20250313222143007](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313222143007.png)
+
+支持：英语、德语、法语、日语、意大利语等
+
+![image-20250313222312089](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313222312089.png)
+
+![image-20250313222245851](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313222245851.png)
 
 ### 2. UI 组件（Vuetify）
 
@@ -149,6 +171,33 @@ useSeoMeta({
 </script>
 ```
 
+## 实现步骤
+
+### 1. 设计稿适配
+
+- 通过提供的 **PSD 文件** 确定版心（`1200px`），确保页面布局符合设计稿。
+- 使用 `flexbox` 和 `grid` 进行布局，以实现自适应效果。
+
+- 结合 `Tailwind CSS`，确保各个模块符合 UI 设计规范。
+
+![image-20250313221314992](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313221314992.png)
+
+### 2. 响应式布局
+
+- 采用 `@nuxtjs/tailwindcss`，使用 `flex`、`grid` 进行自适应布局。
+
+- 通过 `v-responsive` 组件优化 Vuetify 图片和容器尺寸。
+
+- 针对移动端优化，支持 `meta viewport` 配置，确保流畅的用户体验。
+
+  ![image-20250313221444169](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313221444169.png)
+
+- 针对不同设备进行适配
+
+![image-20250313221659456](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313221659456.png)
+
+![image-20250313221730220](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313221730220.png)
+
 ## 性能优化
 
 ### 1. 代码分割与懒加载
@@ -168,7 +217,7 @@ useSeoMeta({
 
 ### 4. 响应速度优化
 
-- 采用高效的 SSR 渲染机制，确保页面渲染时间低于 **70ms**。
+- 采用高效的 SSR 渲染机制，确保页面渲染时间低于 **100ms**。
 - 预渲染关键页面内容，减少客户端解析和渲染时间。
 - 通过 `vite-plugin-vuetify` 进行按需加载，减少 JavaScript 体积。
 - 使用 `gzip` 或 `brotli` 压缩，提高资源加载速度。
@@ -184,8 +233,7 @@ useSeoMeta({
 
 - 代码格式化工具：`Prettier`
 - 代码校验工具：`ESLint`
-- 推荐使用 TypeScript
 
 ## 总结
 
-本项目基于 Nuxt 3 构建，支持 SSR、静态站点生成、国际化、Vuetify UI 组件库和 Tailwind CSS，并进行了一系列优化，提高了响应速度和适配能力。开发者可以根据自身需求进行扩展，如添加状态管理（Pinia）或 API 请求库（Axios）。
+本项目基于 Nuxt 3 构建，支持 SSR、静态站点生成、国际化、Vuetify UI 组件库和 Tailwind CSS，并进行了一系列优化，提高了响应速度和适配能力。
