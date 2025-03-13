@@ -60,7 +60,7 @@ const toggleMobileMenu = () => {
           <v-menu>
             <template v-slot:activator="{ props }">
               <div class="ml-4">
-                <v-btn color="#e50012" icon="mdi-translate" v-bind="props"></v-btn>
+                <v-btn color="#e50012" icon="mdi-translate" v-bind="props">En</v-btn>
               </div>
             </template>
             <v-list>

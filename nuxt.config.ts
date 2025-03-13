@@ -8,8 +8,12 @@ export default defineNuxtConfig({
   ssr: true,
   // 设置全局css
   css: [
-    '~/assets/css/global.css'
+    '~/assets/css/global.css',
+    'vuetify/lib/styles/main.css', //确保正确导入 Vuetify CSS
   ],
+  build: {
+    transpile: ['vuetify'], //  确保 Vuetify 被正确转译
+  },
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
@@ -39,10 +43,14 @@ export default defineNuxtConfig({
   //  vueI18n: "./i18n.config.ts",
   // }, 
   vite: {
+    define: {
+      'process.env.DEBUG': 'false',
+    },
+    optimizeDeps: {
+      include: ['vuetify'],
+    },
     vue: {
-      template: {
-        transformAssetUrls,
-      }
-    }
-  },
+      template: { transformAssetUrls },
+    },
+  }
 })
