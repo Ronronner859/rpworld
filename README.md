@@ -4,6 +4,10 @@
 
 本项目基于 Nuxt.js 3 开发，使用 Vue 3 进行前端渲染，并集成了 Vuetify 作为 UI 组件库。此外，项目支持国际化（i18n），使用 Tailwind CSS 进行样式管理，并采用 `pnpm` 作为包管理工具。项目进行了多项优化，以提高网站的响应速度和适配能力，确保页面响应速度在 **100ms 以内**。
 
+线上地址：https://rpworld-staticsite.vercel.app/
+
+本地启动：http://localhost:3000/
+
 ![image-20250313221238308](/Users/chenyi/Library/Application Support/typora-user-images/image-20250313221238308.png)
 
 >## 为什么采用这些技术？
@@ -66,6 +70,8 @@ pnpm install
 
 ```sh
 pnpm dev
+
+访问：http://localhost:3000/ 
 ```
 
 ### 构建项目
@@ -237,3 +243,6 @@ useSeoMeta({
 ## 总结
 
 本项目基于 Nuxt 3 构建，支持 SSR、静态站点生成、国际化、Vuetify UI 组件库和 Tailwind CSS，并进行了一系列优化，提高了响应速度和适配能力。
+
+
+
