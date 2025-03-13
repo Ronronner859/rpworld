@@ -121,7 +121,7 @@ const toggleMobileMenu = () => {
 
           <!-- Mobile Menu Button -->
           <button class="lg:hidden text-gray-700" @click="toggleMobileMenu">
-            <svg class="w-14 h-14" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path v-if="!isMobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M4 6h16M4 12h16M4 18h16" />
               <path v-else stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
@@ -131,44 +131,48 @@ const toggleMobileMenu = () => {
       </nav>
 
       <!-- Mobile Menu -->
-      <div v-show="isMobileMenuOpen" class="lg:hidden fixed top-20 left-0 right-0 bg-white shadow-lg z-50 mobile-menu">
-        <div class="py-2 space-y-2">
+      <div v-show="isMobileMenuOpen" class="lg:hidden fixed left-0 right-0 bg-white shadow-lg z-50 mobile-menu">
+        <div class="py-2">
           <!-- Language Switcher for Mobile -->
           <div class="px-4 py-2 border-b border-gray-100">
-            <div class="flex items-center space-x-4">
-              <button @click="setLocale('en')" class="flex-1 py-2 px-4 rounded-md text-[12px]"
-                :class="locale === 'en' ? 'bg-red-50 text-red-600' : 'text-[#555555]'">
-                English
-              </button>
-              <button @click="setLocale('de')" class="flex-1 py-2 px-4 rounded-md text-[12px]"
-                :class="locale === 'de' ? 'bg-red-50 text-red-600' : 'text-[#555555]'">
-                German
-              </button>
-              <button @click="setLocale('fr')" class="flex-1 py-2 px-4 rounded-md text-[12px]"
-                :class="locale === 'fr' ? 'bg-red-50 text-red-600' : 'text-[#555555]'">
-                French
-              </button>
-              <button @click="setLocale('es')" class="flex-1 py-2 px-4 rounded-md text-[12px]"
-                :class="locale === 'es' ? 'bg-red-50 text-red-600' : 'text-[#555555]'">
-                Spanish
-              </button>
-              <button @click="setLocale('it')" class="flex-1 py-2 px-4 rounded-md text-[12px]"
-                :class="locale === 'it' ? 'bg-red-50 text-red-600' : 'text-[#555555]'">
-                Italian
+            <div class="grid grid-cols-2 gap-2 mobile-lang-grid">
+              <button 
+                v-for="lang in [
+                  { code: 'en' as const, name: 'English' },
+                  { code: 'de' as const, name: 'German' },
+                  { code: 'fr' as const, name: 'French' },
+                  { code: 'es' as const, name: 'Japanese' },
+                  { code: 'it' as const, name: 'Italian' }
+                ]"
+                :key="lang.code"
+                @click="setLocale(lang.code)"
+                class="mobile-lang-btn"
+                :class="locale === lang.code ? 'mobile-lang-btn-active' : ''"
+              >
+                {{ lang.name }}
               </button>
             </div>
           </div>
 
           <!-- Navigation Links -->
-          <NuxtLink v-for="(item, index) in menuItems" :key="item.name" :to="item.path"
-            class="block px-4 py-2 text-[12px] text-[#555555] hover:bg-gray-100" @click="isMobileMenuOpen = false">
-            {{ $t(`rp-header.menu[${index}].name`) }}
-          </NuxtLink>
+          <div class="mobile-nav-links">
+            <NuxtLink 
+              v-for="(item, index) in menuItems" 
+              :key="item.name" 
+              :to="item.path"
+              class="mobile-nav-item"
+              @click="isMobileMenuOpen = false"
+            >
+              {{ $t(`rp-header.menu[${index}].name`) }}
+            </NuxtLink>
+          </div>
 
           <!-- Quote Button -->
-          <NuxtLink to="/quote"
-            class="block mx-4 my-3 text-center text-white text-[12px] bg-red-600 hover:bg-red-700 py-3 rounded"
-            @click="isMobileMenuOpen = false">
+          <NuxtLink 
+            to="/quote"
+            class="mobile-quote-btn"
+            @click="isMobileMenuOpen = false"
+          >
             {{ $t('rp-header.title') }}
           </NuxtLink>
         </div>
@@ -228,50 +232,111 @@ const toggleMobileMenu = () => {
 
 /* 移动端菜单样式优化 */
 .mobile-menu {
-  max-height: calc(100vh - 80px);
+  max-height: calc(100vh - 60px);
   overflow-y: auto;
+  top: 60px;
+  background-color: white;
+  border-top: 1px solid #eee;
 }
 
-@media (max-width: 768px) {
-  .mobile-menu-button {
-    padding: 8px;
-  }
-  
-  .mobile-menu-icon {
-    width: 24px;
-    height: 24px;
-  }
+.mobile-lang-grid {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 8px 0;
 }
 
-@media (max-width: 480px) {
-  .mobile-menu-button {
-    padding: 6px;
-  }
-  
-  .mobile-menu-icon {
-    width: 20px;
-    height: 20px;
-  }
+.mobile-lang-btn {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  transition: all 0.3s ease;
+  background-color: #f5f5f5;
+  color: #555555;
+  border: 1px solid transparent;
 }
 
-/* 导航菜单项样式优化 */
-.nav-item {
+.mobile-lang-btn-active {
+  background-color: #fff;
+  color: #e50012;
+  border-color: #e50012;
+}
+
+.mobile-nav-links {
+  padding: 8px 16px;
+}
+
+.mobile-nav-item {
+  display: block;
   padding: 12px 16px;
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555555;
+  border-radius: 8px;
   transition: all 0.3s ease;
 }
 
-@media (max-width: 768px) {
-  .nav-item {
-    padding: 10px 14px;
-    font-size: 14px;
-  }
+.mobile-nav-item:hover {
+  background-color: #f5f5f5;
+  color: #e50012;
+}
+
+.mobile-quote-btn {
+  display: block;
+  margin: 16px;
+  padding: 12px;
+  text-align: center;
+  background-color: #e50012;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.mobile-quote-btn:hover {
+  background-color: #cc0010;
 }
 
 @media (max-width: 480px) {
-  .nav-item {
-    padding: 8px 12px;
+  .mobile-menu {
+    top: 50px;
+  }
+
+  .mobile-lang-btn {
+    padding: 8px;
     font-size: 13px;
   }
+
+  .mobile-nav-item {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+
+  .mobile-quote-btn {
+    margin: 12px;
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+/* 添加滚动条样式 */
+.mobile-menu::-webkit-scrollbar {
+  width: 4px;
+}
+
+.mobile-menu::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.mobile-menu::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2px;
+}
+
+.mobile-menu::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 /* Logo 响应式调整 */

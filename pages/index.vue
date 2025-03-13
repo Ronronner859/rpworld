@@ -110,24 +110,27 @@ const image_load = (val: any) => {
             <ul class="industry-list">
               <li class="industry-item inline">
                 <span>
-                  <span class="industry-title">{{ $t('rp-center-text.medical_devices') }} </span>
-                  <span class="industry-title-colon">:</span>
+                  <span class="industry-title">{{ $t('rp-center-text.medical_devices') }}
+                    <span class="industry-title-colon">:</span>  
+                  </span>
                   {{ $t('rp-center-text.medical_devices_text') }}
                 </span>
               </li>
               <br>
               <li class="industry-item inline">
                 <span>
-                  <span class="industry-title">{{ $t('rp-center-text.scientific_instruments') }}</span>
-                  <span class="industry-title-colon">:</span>
+                  <span class="industry-title">{{ $t('rp-center-text.scientific_instruments') }}
+                    <span class="industry-title-colon">:</span>
+                  </span>
                   {{ $t('rp-center-text.scientific_instruments_text') }}
                 </span>
               </li>
               <br>
               <li class="industry-item inline">
                 <span>
-                  <span class="industry-title">{{ $t('rp-center-text.automotive') }}</span>
-                  <span class="industry-title-colon">:</span>
+                  <span class="industry-title">{{ $t('rp-center-text.automotive') }}
+                    <span class="industry-title-colon">:</span>
+                  </span>
                   {{ $t('rp-center-text.automotive_text') }}
                 </span>
               </li>

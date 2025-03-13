@@ -195,13 +195,14 @@
   // height: 10vh; 
   object-fit: cover;
   display: block;
+  object-position: center;
 
   @media (max-width: 768px) {
-    height: 18vh;
+    height: 20vh;
   }
 
   @media (max-width: 480px) {
-    height: 10vh;
+    height: 13.5vh;
   }
 }
 
@@ -232,7 +233,7 @@
 
   @media (max-width: 480px) {
     font-size: 13px;
-    padding: 12px;
+    padding: 20px 0px;
   }
 }
 
