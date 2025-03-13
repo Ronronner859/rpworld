@@ -1,5 +1,4 @@
 import en from "~/assets/lang/en_us.json";
-import zh from "~/assets/lang/zh_cn.json";
 import de from "~/assets/lang/de_ge.json";
 import fr from "~/assets/lang/fr_fr.json";
 import es from "~/assets/lang/es_sp.json";
@@ -9,7 +8,6 @@ export default defineI18nConfig(() => ({
     fallbackLocale: 'en',  // 区配不到的语言就用en
     messages: {
         en,
-        zh,
         de,
         fr,
         es,

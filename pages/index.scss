@@ -1,0 +1,935 @@
+.on-demand-vs-traditional {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 1rem 0 0 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+
+.product-development-journey {
+  background-color: #ffffff;
+  color: #333333;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+
+.traditional-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.on-demand-manufacturing {
+  background-color: #ffffff;
+  color: #333333;
+  padding: 1rem 0;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+    padding: 1rem;
+  }
+
+  .title {
+    @media (max-width: 768px) {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .content {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+
+    @media (max-width: 768px) {
+      font-size: 0.9rem;
+      margin: 0.75rem 0;
+    }
+  }
+
+  .content-first,
+  .content-second,
+  .content-fourth,
+  .content-seventh {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 2rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 0.75rem;
+    }
+
+    .content-first-left,
+    .content-fourth-left {
+      flex: 1;
+      margin-right: 1rem;
+
+      @media (max-width: 768px) {
+        margin-right: 0;
+      }
+    }
+
+    .content-first-right,
+    .content-fourth-right {
+      flex: 1;
+
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .content-seventh {
+    background-color: #f6f6f8;
+
+    .content-first-left {
+      padding: 20px;
+
+      @media (max-width: 768px) {
+        padding: 15px;
+      }
+    }
+  }
+
+  .content-third,
+  .content-fifth,
+  .content-sixth,
+  .content-eighth {
+    margin-top: 1rem;
+
+    @media (max-width: 768px) {
+      margin-top: 0.75rem;
+      // padding: 0 0.5rem;
+    }
+  }
+
+  // 列表样式优化
+  .list-disc {
+    padding-left: 1.25rem;
+
+    @media (max-width: 768px) {
+      padding-left: 1rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+      line-height: 1.4;
+
+      @media (max-width: 768px) {
+        font-size: 0.9rem;
+        margin-bottom: 0.4rem;
+      }
+    }
+  }
+
+  // 标题和段落样式
+  .font-bold {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+
+    @media (max-width: 768px) {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  p {
+    line-height: 1.6;
+    margin-bottom: 0.75rem;
+
+    @media (max-width: 768px) {
+      font-size: 0.9rem;
+      line-height: 1.5;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  // 图片样式优化
+  .feature-image {
+    width: 100%;
+    height: auto;
+    // max-height: 200px;
+    object-fit: cover;
+
+    @media (max-width: 768px) {
+      max-height: 180px;
+    }
+  }
+}
+
+
+.banner-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-image {
+  width: 100%;
+  // height: 10vh; 
+  object-fit: cover;
+  display: block;
+
+  @media (max-width: 768px) {
+    height: 18vh;
+  }
+
+  @media (max-width: 480px) {
+    height: 10vh;
+  }
+}
+
+.grocery-shopping-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 0 16px 16px 16px;
+  }
+}
+
+.grocery-shopping {
+  max-width: 1182px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 40px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 16px;
+    line-height: 1.4;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 13px;
+    padding: 12px;
+  }
+}
+
+/* 确保图片在移动端也能自适应 */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 容器响应式布局 */
+.container {
+  width: 100%;
+  max-width: 1182px;
+  margin: 0 auto;
+  padding: 20px;
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 12px;
+  }
+}
+
+/* 响应式间距 */
+.pt-8 {
+  @media (max-width: 768px) {
+    padding-top: 2rem;
+  }
+}
+
+.pb-10 {
+  @media (max-width: 768px) {
+    padding-bottom: 2.5rem;
+  }
+}
+
+/* 响应式文本大小 */
+.text-2xl {
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.25rem;
+  }
+}
+
+.text-3xl {
+  @media (max-width: 768px) {
+    font-size: 1.875rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+  }
+}
+
+/* 响应式间距调整 */
+.gap-8 {
+  @media (max-width: 768px) {
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    gap: 1rem;
+  }
+}
+
+/* 移动端文本对齐 */
+@media (max-width: 768px) {
+  .text-center-mobile {
+    text-align: center;
+  }
+
+  .flex-col-mobile {
+    flex-direction: column;
+  }
+
+  .w-full-mobile {
+    width: 100%;
+  }
+}
+
+// company introduction
+.company-intro {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.container {
+  max-width: 1182px;
+  // margin: 0 auto;
+  padding: 0;
+}
+
+.intro-content {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 0 40px;
+
+  @media (max-width: 991px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
+}
+
+.intro-text {
+  flex: 1;
+}
+
+.intro-paragraph {
+  font-size: 1rem;
+  color: #413E3A;
+  font-weight: 500;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+}
+
+.intro-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 991px) {
+    order: -1; 
+    width: 100%;
+  }
+}
+
+.main-image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+
+  @media (min-width: 992px) {
+    max-width: none;
+  }
+}
+
+.industry-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.industry-item {
+  // display: flex;
+  position: relative;
+  padding-left: 1.25rem;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding-left: 1rem;
+  }
+
+  &:before {
+    content: "•";
+    color: #3B82F6;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+
+    @media (max-width: 768px) {
+      top: 1.25rem;
+    }
+  }
+}
+
+.industry-title {
+  font-weight: bold;
+  color: #295598;
+  min-width: 160px;
+  text-decoration: underline;
+
+  @media (max-width: 768px) {
+    display: block;
+    padding: 0 16px;
+  }
+}
+
+// 标题：Fabrication à la demande vs. fabrication traditionnelle
+.fabrication-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    padding: 0 16px;
+  }
+}
+
+.manufacturing-box {
+  background-color: #ffffff;
+}
+
+.manufacturing-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.manufacturing-item {
+  .item-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .item-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .item-content {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  .text-content {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+
+  .image-content {
+    flex: 1;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      order: -1;
+    }
+  }
+
+  .feature-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+}
+
+.benefit-list {
+  list-style: none;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+
+  li {
+    position: relative;
+    margin-bottom: 0.5rem;
+
+    &:before {
+      content: "•";
+      color: #3B82F6;
+      position: absolute;
+      left: -1.5rem;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .manufacturing-box {
+    padding: 2rem 1rem;
+  }
+
+  .manufacturing-grid {
+    gap: 2rem;
+  }
+
+  .manufacturing-item {
+    .item-header {
+      margin-bottom: 1rem;
+    }
+
+    .item-title {
+      font-size: 1.125rem;
+    }
+
+    .item-content {
+      gap: 1rem;
+    }
+  }
+}
+
+/* 表格 */
+.table-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.table-container {
+  width: 1100px;
+  overflow: hidden;
+}
+
+@media (max-width: 1200px) {
+  .table-container {
+    width: 95%;
+  }
+}
+
+.v-table {
+  overflow: hidden;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.header-row {
+  background-color: #2c5aa0 !important;
+  color: white !important;
+  font-weight: 500;
+  height: 56px;
+}
+
+.header-row th {
+  color: white !important;
+  font-size: 16px;
+  padding: 16px;
+  text-align: left !important;
+}
+
+.first-column {
+  padding-left: 60px !important;
+  width: 33.33%;
+}
+
+.striped-row {
+  background-color: #e6f0fa !important;
+}
+
+tbody tr {
+  height: 52px;
+}
+
+tbody td {
+  padding: 16px;
+  font-size: 15px;
+  text-align: left !important;
+  width: 33.33%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .v-table {
+    font-size: 14px;
+  }
+
+  .header-row th {
+    font-size: 14px;
+    padding: 12px 8px;
+  }
+
+  tbody td {
+    padding: 12px 8px;
+    font-size: 13px;
+  }
+
+  .first-column {
+    padding-left: 16px !important;
+  }
+}
+
+// 图片
+.outer-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+}
+
+/* Set fixed width for desktop and center it */
+.timeline-container {
+  width: 100%;
+  max-width: 1100px;
+  padding: 20px 60px;
+}
+
+/* Title text size */
+.text-title {
+  font-size: 20px;
+}
+
+.arrow-container {
+  display: flex;
+  position: relative;
+  height: 76px;
+  width: 80%;
+}
+
+.arrow-container-mobile {
+  margin-top: 15px !important;
+}
+
+.arrow-container-traditional {
+  height: 56px;
+}
+
+.arrow {
+  flex: 1;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.arrow::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 38px solid transparent;
+  border-bottom: 38px solid transparent;
+  z-index: 2;
+}
+
+
+.arrow-traditional::after {
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 28px solid transparent;
+  border-bottom: 28px solid transparent;
+  z-index: 2;
+}
+
+/* Blue arrows with exact colors */
+.blue-arrow-1 {
+  background-color: #3E8BC7;
+}
+
+.blue-arrow-1::after {
+  border-left: 15px solid #3E8BC7;
+}
+
+.blue-arrow-2 {
+  background-color: #2F6EBE;
+}
+
+.blue-arrow-2::after {
+  border-left: 15px solid #2F6EBE;
+}
+
+.blue-arrow-3 {
+  background-color: #2F57A1;
+}
+
+.blue-arrow-3::after {
+  border-left: 15px solid #2F57A1;
+}
+
+/* Gray arrows with exact colors */
+.gray-arrow-1 {
+  background-color: #898989;
+}
+
+.gray-arrow-1::after {
+  border-left: 15px solid #898989;
+}
+
+.gray-arrow-2 {
+  background-color: #707070;
+}
+
+.gray-arrow-2::after {
+  border-left: 15px solid #707070;
+}
+
+.gray-arrow-3 {
+  background-color: #595758;
+}
+
+.gray-arrow-3::after {
+  border-left: 15px solid #595758;
+}
+
+.arrow-content {
+  width: 100%;
+  text-align: center;
+}
+
+.time-to-market {
+  position: absolute;
+  right: -150px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 20px;
+  width: 140px;
+
+  span:nth-child(2) {
+    // 居中
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.process-descriptions {
+  display: flex;
+  margin-top: 8px;
+  width: 80%;
+}
+
+.process-item {
+  flex: 1;
+  text-align: center;
+  font-size: 0.675rem;
+}
+
+/* Enhanced Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .timeline-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .w-48 {
+    width: 100%;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .text-left {
+    text-align: center;
+  }
+
+  .arrow-container-mobile {
+    margin: 0 !important;
+  }
+
+  .arrow-container-on-demand,
+  .arrow-container-on-traditional {
+    width: 100%;
+    // 居中
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Mobile arrow container */
+  .arrow-container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+  }
+
+  /* Mobile arrow styling */
+  .arrow {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    flex-direction: column;
+  }
+
+  .arrow::after {
+    display: none;
+  }
+
+  /* Mobile arrow content */
+  .arrow-content {
+    margin-bottom: 10px;
+  }
+
+  /* Mobile process descriptions */
+  .process-descriptions {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .process-item {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  /* Mobile time to market */
+  .time-to-market {
+    position: static;
+    transform: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0;
+  }
+
+  /* Mobile arrow descriptions */
+  .blue-arrow-1::after,
+  .blue-arrow-2::after,
+  .blue-arrow-3::after,
+  .gray-arrow-1::after,
+  .gray-arrow-2::after,
+  .gray-arrow-3::after {
+    display: none;
+  }
+
+  /* Add description text below each arrow */
+  .blue-arrow-1 .arrow-content::after {
+    content: "CNC Machining / Vacuum Casting\A 3D Printing";
+    white-space: pre;
+    display: block;
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: white;
+  }
+
+  .blue-arrow-2 .arrow-content::after {
+    content: "Injection Molding (Aluminum Tooling)";
+    display: block;
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: white;
+  }
+
+  .blue-arrow-3 .arrow-content::after {
+    content: "Injection Molding";
+    display: block;
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: white;
+  }
+
+  .gray-arrow-1 .arrow-content::after {
+    content: "CNC Machining / 3D Printing";
+    display: block;
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: white;
+  }
+
+  .gray-arrow-2 .arrow-content::after {
+    content: "Injection Molding (Steel Tooling)";
+    display: block;
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: white;
+  }
+
+  .gray-arrow-3 .arrow-content::after {
+    content: "Injection Molding";
+    display: block;
+    margin-top: 8px;
+    font-size: 0.875rem;
+    color: white;
+  }
+
+  /* Hide desktop process descriptions on mobile */
+  .process-descriptions {
+    display: none;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+  .arrow-content h3 {
+    font-size: 1rem;
+  }
+
+  .p-6 {
+    padding: 0.75rem;
+  }
+
+  .space-y-16 {
+    margin-top: 2rem;
+  }
+
+  .gap-8 {
+    gap: 1rem;
+  }
+}
